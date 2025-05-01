@@ -1,0 +1,107 @@
+.index-page {
+  padding: 20px;
+  background-color: #f8f8f8;
+  min-height: 100vh;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 20px;
+
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #36b37e;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    color: #666;
+    display: block;
+  }
+}
+.date-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+
+  .date-text {
+    font-size: 16px;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .training-count {
+    font-size: 14px;
+    color: #666;
+    display: block;
+  }
+}
+.action-card {
+  margin: 30px 0;
+}
+
+.start-btn {
+  background-color: #36b37e;
+  color: white;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  height: 50px;
+  line-height: 50px;
+}
+
+.recent-records {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.record-item {
+  padding: 15px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.record-item:last-child {
+  border-bottom: none;
+}
+
+.record-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.record-name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+.record-date {
+  font-size: 14px;
+  color: #999;
+}
+
+.record-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #666;
+}
