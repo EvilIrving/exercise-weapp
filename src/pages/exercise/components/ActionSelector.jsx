@@ -7,8 +7,13 @@ const ActionSelector = ({ onClose, onConfirm, currentSelected = [] }) => {
   const [searchText, setSearchText] = useState("");
   const [selectedMuscle, setSelectedMuscle] = useState("");
   const [selectedEquipment, setSelectedEquipment] = useState("");
-  const [filteredActions, setFilteredActions] = useState([]);
   const [selectedActions, setSelectedActions] = useState([]);
+
+  // 保持currentSelected与selectedActions同步，新增动作后也能选中
+  useEffect(() => {
+    setSelectedActions(currentSelected.map(action => ({ ...action })));
+  }, [currentSelected]);
+  const [filteredActions, setFilteredActions] = useState([]);
 
   // 获取所有可用的肌肉部位和设备类型（去重）
   const muscles = [...new Set(libs.map((item) => item.muscle))];
@@ -80,9 +85,21 @@ const ActionSelector = ({ onClose, onConfirm, currentSelected = [] }) => {
     }
   };
 
+  // 新增动作时自动选中并同步状态
+  const handleAddAction = (action) => {
+    setSelectedActions(prev => {
+      if (!prev.some(item => item.name === action.name)) {
+        return [...prev, { ...action }];
+      }
+      return prev;
+    });
+  };
+
   // 确认选择
   const handleConfirm = () => {
-    onConfirm(selectedActions);
+    if (selectedActions.length > 0) {
+      onConfirm(selectedActions);
+    }
   };
 
   return (
@@ -173,7 +190,13 @@ const ActionSelector = ({ onClose, onConfirm, currentSelected = [] }) => {
           <Text className="selected-count">已选择 {selectedActions.length} 个动作</Text>
           <View className="footer-buttons">
             <Button className="cancel-btn" onClick={onClose}>取消</Button>
-            <Button className="confirm-btn" onClick={handleConfirm}>确认</Button>
+            <Button
+              className={`confirm-btn ${selectedActions.length === 0 ? 'disabled' : ''}`}
+              onClick={handleConfirm}
+              disabled={selectedActions.length === 0}
+            >
+              确认
+            </Button>
           </View>
         </View>
       </View>

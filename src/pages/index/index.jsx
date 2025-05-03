@@ -1,10 +1,39 @@
-import React, { useCallback } from "react";
+import React, { useCallback, useState, useEffect } from "react";
 import { View, Text, Button } from "@tarojs/components";
 import Taro from "@tarojs/taro";
 
 import "./index.scss";
 
 const Index = () => {
+  const [hasOngoingTraining, setHasOngoingTraining] = useState(false);
+  // 检查是否有进行中的训练
+  useEffect(() => {
+    const ongoingTraining = Taro.getStorageSync("ongoingTraining");
+    setHasOngoingTraining(!!ongoingTraining);
+  }, []);
+ 
+
+  // 开始训练（新增检查逻辑）
+  const goToExcercise = useCallback(() => {
+    if (hasOngoingTraining) {
+      Taro.showModal({
+        title: "提示",
+        content: "当前有未完成的训练，确定要放弃吗？",
+        success: (res) => {
+          if (res.confirm) {
+            Taro.navigateTo({
+              url: "/pages/exercise/index",
+            });
+          }
+        },
+      });
+    } else {
+      Taro.navigateTo({
+        url: "/pages/exercise/index",
+      });
+    }
+  }, [hasOngoingTraining]);
+
   const recentRecords = [
     {
       id: "record1",
@@ -168,12 +197,6 @@ const Index = () => {
   const dateStr = `${today.getFullYear()}年${
     today.getMonth() + 1
   }月${today.getDate()}日`;
-
-  const goToExcercise = useCallback(() => {
-    Taro.navigateTo({
-      url: "/pages/exercise/index",
-    });
-  }, []);
 
   return (
     <View className="index-page">

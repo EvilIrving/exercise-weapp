@@ -90,7 +90,24 @@ const Exercise = () => {
 
   // 打开动作选择器
   const openActionSelector = () => {
-    setShowActionSelector(true);
+    // 检查是否有进行中训练
+    const ongoing = Taro.getStorageSync("ongoingTraining");
+    if (ongoing) {
+      Taro.showModal({
+        title: "提示",
+        content: "有未完成的训练，是否放弃并重新开始？",
+        success: function (res) {
+          if (res.confirm) {
+            Taro.removeStorageSync("ongoingTraining");
+            Taro.eventCenter.trigger("trainingStatusChange");
+            setSelectedActions([]);
+            setShowActionSelector(true);
+          }
+        },
+      });
+    } else {
+      setShowActionSelector(true);
+    }
   };
 
   // 关闭动作选择器
@@ -102,6 +119,14 @@ const Exercise = () => {
   const confirmSelectedActions = (actions) => {
     // 为每个新选择的动作添加默认的4组
     const actionsWithSets = actions.map((action) => {
+      // 查找是否已存在于当前选中的动作中
+      const existingAction = selectedActions.find(
+        (a) => a.name === action.name
+      );
+
+      // 如果已存在且有sets，则保留
+      if (existingAction && existingAction.sets) return existingAction;
+
       // 如果已经有sets，则保留
       if (action.sets) return action;
 
@@ -124,17 +149,62 @@ const Exercise = () => {
     closeActionSelector();
   };
 
-  // 取消训练
+  // 开始训练时设置状态
+  useEffect(() => {
+    Taro.setStorageSync("ongoingTraining", true);
+    return () => {
+      // 组件卸载时不自动清除，保持训练状态
+    };
+  }, []);
+
+  // 取消训练时清除状态
   const cancelTraining = () => {
     Taro.showModal({
       title: "确认取消",
       content: "确定要取消当前训练吗？所有记录将不会保存。",
       success: function (res) {
         if (res.confirm) {
+          Taro.removeStorageSync("ongoingTraining");
           Taro.navigateBack();
         }
       },
     });
+  };
+
+  // 在组件内添加完成运动的处理函数
+  const finishTraining = () => {
+    if (selectedActions.length === 0) {
+      Taro.showToast({ title: "请先选择并完成训练动作", icon: "none" });
+      return;
+    }
+    // 整理保存的数据结构
+    const record = {
+      id: String(Date.now()),
+      date: new Date().toISOString(),
+      actions: selectedActions.map((action) => ({
+        name: action.name,
+        type: action.type,
+        muscle: action.muscle,
+        equipment: action.equipment,
+        sets: action.sets.map((set) => ({
+          weight: set.weight,
+          reps: set.reps,
+          group: set.group,
+          completed: set.completed,
+        })),
+      })),
+    };
+    // 读取已有记录
+    let records = Taro.getStorageSync("trainingRecords") || [];
+    if (!Array.isArray(records)) records = [];
+    records.unshift(record);
+    Taro.setStorageSync("trainingRecords", records);
+    Taro.removeStorageSync("ongoingTraining");
+    Taro.eventCenter.trigger("trainingStatusChange");
+    Taro.showToast({ title: "训练记录已保存", icon: "success" });
+    setTimeout(() => {
+      Taro.switchTab({ url: "/pages/index/index" });
+    }, 800);
   };
 
   return (
@@ -184,14 +254,14 @@ const Exercise = () => {
                     <Text className="set-label">次</Text>
                     <Input
                       className="set-input"
-                      type="number"
+                      type="digit"
                       value={String(set.weight)}
                       onInput={(e) =>
                         updateSetData(
                           actionIndex,
                           setIndex,
                           "weight",
-                          parseInt(e.detail.value)
+                          parseFloat(e.detail.value)
                         )
                       }
                     />
@@ -216,17 +286,14 @@ const Exercise = () => {
           ))}
 
           <View className="action-buttons">
-            <Button
-              className="add-action-btn"
-              onClick={openActionSelector}
-            >
+            <Button className="add-action-btn" onClick={openActionSelector}>
               增加运动
             </Button>
-            <Button
-              className="cancel-btn"
-              onClick={cancelTraining}
-            >
+            <Button className="cancel-btn" onClick={cancelTraining}>
               取消训练
+            </Button>
+            <Button className="finish-btn" onClick={finishTraining}>
+              完成运动
             </Button>
           </View>
         </View>
