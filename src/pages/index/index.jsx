@@ -1,38 +1,39 @@
 import React, { useCallback, useState, useEffect } from "react";
 import { View, Text, Button } from "@tarojs/components";
 import Taro from "@tarojs/taro";
+import ExerciseSheet from "../../components/ExerciseSheet";
 
 import "./index.scss";
 
 const Index = () => {
   const [hasOngoingTraining, setHasOngoingTraining] = useState(false);
+  const [showExerciseSheet, setShowExerciseSheet] = useState(false);
+
   // 检查是否有进行中的训练
   useEffect(() => {
     const ongoingTraining = Taro.getStorageSync("ongoingTraining");
     setHasOngoingTraining(!!ongoingTraining);
-  }, []);
- 
 
-  // 开始训练（新增检查逻辑）
-  const goToExcercise = useCallback(() => {
-    if (hasOngoingTraining) {
-      Taro.showModal({
-        title: "提示",
-        content: "当前有未完成的训练，确定要放弃吗？",
-        success: (res) => {
-          if (res.confirm) {
-            Taro.navigateTo({
-              url: "/pages/exercise/index",
-            });
-          }
-        },
-      });
-    } else {
-      Taro.navigateTo({
-        url: "/pages/exercise/index",
-      });
-    }
-  }, [hasOngoingTraining]);
+    // 监听训练状态变化
+    Taro.eventCenter.on("trainingStatusChange", () => {
+      const training = Taro.getStorageSync("ongoingTraining");
+      setHasOngoingTraining(!!training);
+    });
+
+    return () => {
+      Taro.eventCenter.off("trainingStatusChange");
+    };
+  }, []);
+
+  // 打开训练Sheet
+  const openExerciseSheet = useCallback(() => {
+    setShowExerciseSheet(true);
+  }, []);
+
+  // 关闭训练Sheet
+  const closeExerciseSheet = useCallback(() => {
+    setShowExerciseSheet(false);
+  }, []);
 
   const recentRecords = [
     {
@@ -217,7 +218,7 @@ const Index = () => {
       </View>
 
       <View className="action-card">
-        <Button className="start-btn" onClick={() => goToExcercise()}>
+        <Button className="start-btn" onClick={openExerciseSheet}>
           开始训练
         </Button>
       </View>
@@ -246,6 +247,8 @@ const Index = () => {
           </View>
         </View>
       )}
+      {/* 训练Sheet组件 */}
+      <ExerciseSheet isOpen={showExerciseSheet} onClose={closeExerciseSheet} />
     </View>
   );
 };

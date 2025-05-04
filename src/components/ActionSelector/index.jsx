@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { View, Text, Input, ScrollView, Button } from "@tarojs/components";
-import { libs } from "../../../models/data";
-import "./ActionSelector.scss";
+import { libs } from "../../models/data";
+import "./index.scss";
 
 const ActionSelector = ({ onClose, onConfirm, currentSelected = [] }) => {
   const [searchText, setSearchText] = useState("");
