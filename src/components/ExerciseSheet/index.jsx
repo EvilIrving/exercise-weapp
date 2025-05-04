@@ -3,11 +3,11 @@ import { View, Text, Button, Checkbox, Input } from "@tarojs/components";
 import Taro from "@tarojs/taro";
 import Sheet from "../Sheet";
 import ActionSelector from "../ActionSelector";
+import timerManager from "../../utils/TimerManager";
 import "./index.scss";
 
 const ExerciseSheet = ({ isOpen, onClose }) => {
   const [timer, setTimer] = useState(0);
-  const [timerInterval, setTimerInterval] = useState(null);
   const [selectedActions, setSelectedActions] = useState([]);
   const [showActionSelector, setShowActionSelector] = useState(false);
   const [isTrainingStarted, setIsTrainingStarted] = useState(false);
@@ -33,14 +33,14 @@ const ExerciseSheet = ({ isOpen, onClose }) => {
   // 清理定时器
   useEffect(() => {
     return () => {
-      if (timerInterval) clearInterval(timerInterval);
+      timerManager.clearAllTimers();
     };
-  }, [timerInterval]);
+  }, []);
 
   // 开始计时
   const startTimer = useCallback(() => {
-    if (timerInterval) clearInterval(timerInterval);
-    const interval = setInterval(() => {
+    timerManager.clearTimer('mainTimer');
+    timerManager.createTimer('mainTimer', () => {
       setTimer((prevTime) => {
         const newTime = prevTime + 1;
         // 更新存储中的训练状态
@@ -54,8 +54,7 @@ const ExerciseSheet = ({ isOpen, onClose }) => {
         return newTime;
       });
     }, 1000);
-    setTimerInterval(interval);
-  }, [timerInterval, isTrainingStarted]);
+  }, [isTrainingStarted]);
 
   // 格式化时间显示
   const formatTime = (seconds) => {
@@ -115,13 +114,16 @@ const ExerciseSheet = ({ isOpen, onClose }) => {
     // 如果标记为完成，开始休息计时
     if (currentSet.completed) {
       currentSet.restTimer = 90; // 90秒休息时间
-      const restInterval = setInterval(() => {
+      const timerId = `rest_${actionIndex}_${setIndex}`;
+
+      timerManager.createTimer(timerId, () => {
+        const updatedActions = [...selectedActions];
         updatedActions[actionIndex].sets[setIndex].restTimer--;
         setSelectedActions([...updatedActions]);
 
         // 休息时间结束
         if (updatedActions[actionIndex].sets[setIndex].restTimer <= 0) {
-          clearInterval(restInterval);
+          timerManager.clearTimer(timerId);
           // 播放提示音
           try {
             const audio = Taro.createInnerAudioContext();
@@ -218,7 +220,7 @@ const ExerciseSheet = ({ isOpen, onClose }) => {
           setSelectedActions([]);
           setTimer(0);
           setIsTrainingStarted(false);
-          if (timerInterval) clearInterval(timerInterval);
+          timerManager.clearAllTimers();
           onClose();
         }
       },
@@ -263,7 +265,7 @@ const ExerciseSheet = ({ isOpen, onClose }) => {
     setSelectedActions([]);
     setTimer(0);
     setIsTrainingStarted(false);
-    if (timerInterval) clearInterval(timerInterval);
+    timerManager.clearAllTimers();
     onClose();
   };
 
@@ -297,7 +299,7 @@ const ExerciseSheet = ({ isOpen, onClose }) => {
           <Text className="training-time">{formatTime(timer)} | {completedSets}/{totalSets} 组</Text>
         </View>
         <View className="training-actions">
-          <Button className="training-action-btn" size="mini" onClick={finishTraining}>完成</Button>
+          <Button type="primary" size="mini" onClick={finishTraining}>完成</Button>
         </View>
       </View>
     );
@@ -319,7 +321,7 @@ const ExerciseSheet = ({ isOpen, onClose }) => {
         {selectedActions.length === 0 ? (
           <View className="empty-state">
             <Text className="empty-text">请选择训练动作开始训练</Text>
-            <Button className="select-action-btn" onClick={openActionSelector}>
+            <Button type="primary" size="mini" onClick={openActionSelector}>
               选择动作
             </Button>
           </View>
@@ -378,7 +380,8 @@ const ExerciseSheet = ({ isOpen, onClose }) => {
                     </View>
                   ))}
                   <Button
-                    className="add-set-btn"
+                    type="default"
+                    size="mini"
                     onClick={() => addSet(actionIndex)}
                   >
                     增加一组
@@ -388,20 +391,20 @@ const ExerciseSheet = ({ isOpen, onClose }) => {
             ))}
 
             <View className="action-buttons">
-              <Button className="add-action-btn" onClick={openActionSelector}>
+              <Button type="primary" size="mini" onClick={openActionSelector}>
                 增加运动
               </Button>
 
               {!isTrainingStarted ? (
-                <Button className="start-btn" onClick={startTraining}>
+                <Button type="primary" size="mini" onClick={startTraining}>
                   开始训练
                 </Button>
               ) : (
                 <>
-                  <Button className="cancel-btn" onClick={cancelTraining}>
+                  <Button type="warn" size="mini" onClick={cancelTraining}>
                     取消训练
                   </Button>
-                  <Button className="finish-btn" onClick={finishTraining}>
+                  <Button type="primary" size="mini" onClick={finishTraining}>
                     完成训练
                   </Button>
                 </>

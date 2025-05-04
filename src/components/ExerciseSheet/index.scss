@@ -41,19 +41,11 @@
   margin-bottom: 20px;
 }
 
-.select-action-btn {
-  background-color: #4CAF50;
-  color: white;
-  border-radius: 24px;
-  padding: 0 32px;
-}
-
 .actions-container {
   padding: 16px;
 }
 
 .action-card {
-
   border-radius: 12px;
   padding: 16px;
   margin-bottom: 16px;
@@ -115,55 +107,10 @@
   font-weight: bold;
 }
 
-.add-set-btn {
-  margin-top: 8px;
-  background-color: #f0f0f0;
-  color: #333;
-  font-size: 14px;
-  border-radius: 4px;
-}
-
 .action-buttons {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
   margin-top: 24px;
   margin-bottom: 40px;
-}
-
-.add-action-btn {
-  flex: 1;
-  background-color: #f0f0f0;
-  color: #333;
-  border-radius: 24px;
-}
-
-.start-btn {
-  flex: 1;
-  background-color: #4CAF50;
-  color: white;
-  border-radius: 24px;
-}
-
-.cancel-btn {
-  flex: 1;
-  background-color: #f44336;
-  color: white;
-  border-radius: 24px;
-}
-
-.finish-btn {
-  flex: 1;
-  background-color: #2196F3;
-  color: white;
-  border-radius: 24px;
-}
-
-.training-action-btn {
-  background-color: #2196F3;
-  color: white;
-  padding: 0 12px;
-  height: 30px;
-  line-height: 30px;
-  font-size: 12px;
 }

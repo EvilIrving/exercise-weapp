@@ -1,0 +1,43 @@
+.filter-section {
+  padding: 10px 0px;
+
+  .filter-group {
+    margin-bottom: 16px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    .filter-title {
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 8px;
+      color: #333;
+    }
+
+    .filter-scroll {
+      white-space: nowrap;
+    }
+
+    .filter-options {
+      display: inline-flex;
+      gap: 8px;
+      padding: 4px;
+    }
+
+    .filter-option {
+      display: inline-block;
+      padding: 6px 12px;
+      font-size: 14px;
+      color: #666;
+      background: #f5f5f5;
+      border-radius: 16px;
+      transition: all 0.3s;
+
+      &.active {
+        color: #fff;
+        background: #1890ff;
+      }
+    }
+  }
+}

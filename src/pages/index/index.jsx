@@ -1,7 +1,8 @@
 import React, { useCallback, useState, useEffect } from "react";
-import { View, Text, Button } from "@tarojs/components";
+import { View, Text, Button, ScrollView } from "@tarojs/components";
 import Taro from "@tarojs/taro";
 import ExerciseSheet from "../../components/ExerciseSheet";
+import Card from "../../components/Card";
 
 import "./index.scss";
 
@@ -206,7 +207,7 @@ const Index = () => {
         <Text className="subtitle">记录每一次的训练进步</Text>
       </View>
 
-      <View className="date-card">
+      <Card onClick={() => console.log("日期卡片被点击")}>
         <Text className="date-text">今天是 {dateStr}</Text>
         {recentRecords.length > 0 ? (
           <Text className="training-count">
@@ -215,18 +216,18 @@ const Index = () => {
         ) : (
           <Text className="training-count">今天还没有训练记录</Text>
         )}
-      </View>
+      </Card>
 
-      <View className="action-card">
-        <Button className="start-btn" onClick={openExerciseSheet}>
+      <Card>
+        <Button type="primary" size="mini" onClick={openExerciseSheet}>
           开始训练
         </Button>
-      </View>
+      </Card>
 
       {recentRecords.length > 0 && (
-        <View className="recent-records">
+        <ScrollView>
           <Text className="section-title">最近训练记录</Text>
-          <View className="record-lists">
+          <Card>
             {recentRecords.map((record) => (
               <View key={record.id} className="record-item">
                 <View className="record-info">
@@ -244,8 +245,8 @@ const Index = () => {
                 </View>
               </View>
             ))}
-          </View>
-        </View>
+          </Card>
+        </ScrollView>
       )}
       {/* 训练Sheet组件 */}
       <ExerciseSheet isOpen={showExerciseSheet} onClose={closeExerciseSheet} />

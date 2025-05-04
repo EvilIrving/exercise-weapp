@@ -1,6 +1,7 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { View, Text } from '@tarojs/components';
-import './index.scss';
+import React, { useState, useEffect, useRef } from "react";
+import { View, Text, ScrollView } from "@tarojs/components";
+
+import "./index.scss";
 
 /**
  * 全屏Sheet组件
@@ -16,60 +17,60 @@ const Sheet = ({
   snapToBottom = false,
   children,
   snapContent,
-  title = ''
- }) => {
-  const [state, setState] = useState('closed'); // 'closed', 'snapped', 'open'
+  title = "",
+}) => {
+  const [state, setState] = useState("closed"); // 'closed', 'snapped', 'open'
   const sheetRef = useRef(null);
 
   useEffect(() => {
     if (isOpen) {
-      setState('open');
-    } else if (snapToBottom && state === 'open') {
-      setState('snapped');
+      setState("open");
+    } else if (snapToBottom && state === "open") {
+      setState("snapped");
     } else {
-      setState('closed');
+      setState("closed");
     }
   }, [isOpen, snapToBottom]);
 
   const handleClose = () => {
     if (snapToBottom) {
-      setState('snapped');
+      setState("snapped");
     } else {
-      setState('closed');
+      setState("closed");
     }
     onClose && onClose();
   };
 
   const handleOpen = () => {
-    setState('open');
+    setState("open");
   };
 
   return (
-    <View className={`sheet-container ${state !== 'closed' ? 'active' : ''}`}>
+    <View
+      catchMove
+      className={`sheet-container ${state !== "closed" ? "active" : ""}`}
+    >
       {/* 背景遮罩，仅在全屏状态显示 */}
-      {state === 'open' && (
+      {state === "open" && (
         <View className="sheet-overlay" onClick={handleClose} />
       )}
 
       {/* Sheet主体 */}
-      <View
-        className={`sheet ${state}`}
-        ref={sheetRef}
-      >
-        {state === 'open' && (
+      <View className={`sheet ${state}`} ref={sheetRef}>
+        {state === "open" && (
           <View className="sheet-header">
             {title && <Text className="sheet-title">{title}</Text>}
-            <View className="sheet-close" onClick={handleClose}>×</View>
+            <View className="sheet-close" onClick={handleClose}>
+              ×
+            </View>
           </View>
         )}
 
-        {state === 'open' && (
-          <View className="sheet-content">
-            {children}
-          </View>
+        {state === "open" && (
+          <ScrollView className="sheet-content">{children}</ScrollView>
         )}
 
-        {state === 'snapped' && snapContent && (
+        {state === "snapped" && snapContent && (
           <View className="sheet-snap-content" onClick={handleOpen}>
             {snapContent}
           </View>
