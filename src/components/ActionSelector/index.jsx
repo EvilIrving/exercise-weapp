@@ -5,7 +5,8 @@ import Sheet from "../Sheet";
 import SearchFilter from "../SearchFilter";
 import "./index.scss";
 
-const ActionSelector = ({ onClose, onConfirm, currentSelected = [] }) =>  const [selectedActions, setSelectedActions] = useState([]);
+const ActionSelector = ({ onClose, onConfirm, currentSelected = [] }) => {
+  const [selectedActions, setSelectedActions] = useState([]);
 
   // 初始化已选动作
   useEffect(() => {
@@ -53,15 +54,11 @@ const ActionSelector = ({ onClose, onConfirm, currentSelected = [] }) =>  const 
   };
 
   return (
-    <Sheet isOpen={true} onClose={onClose}>
+    <Sheet isOpen={true} onClose={onClose} title="选">
       <View className="action-selector-container">
-        <View className="action-selector-header">
-          <Text className="action-selector-title">选择训练动作</Text>
-        </View>
-
         {/* 渲染 SearchFilter 组件 */}
         <SearchFilter
-          actionsData={libs} // 传递动作库数据
+          libs={libs} // 传递动作库数据
           selectedActions={selectedActions} // 传递已选动作
           onActionSelect={toggleActionSelection} // 传递选择/取消选择的回调
         />

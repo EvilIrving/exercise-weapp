@@ -2,13 +2,21 @@ import React from "react";
 import { View, Text, ScrollView } from "@tarojs/components";
 import "./index.scss";
 
-const ActionList = ({ actions = [] }) => {
+const ActionList = ({ actions = [], onActionSelect }) => {
+  const handleActionClick = (action) => {
+    onActionSelect(action);
+  };
+
   return (
     <ScrollView>
       {actions.length > 0 ? (
         <View className="actions-list">
           {actions.map((action) => (
-            <View key={action.name} className="action-item">
+            <View
+              key={action.name}
+              className="action-item"
+              onClick={() => handleActionClick(action)}
+            >
               <View className="action-image-placeholder">
                 <Text className="placeholder-text">动作图示</Text>
               </View>

@@ -1,5 +1,5 @@
 export default {
-  pages: ["pages/actions/index", "pages/index/index"],
+  pages: ["pages/index/index", "pages/actions/index"],
   window: {
     backgroundTextStyle: "light",
     navigationBarBackgroundColor: "#fff",
@@ -13,16 +13,16 @@ export default {
     borderStyle: "black",
     list: [
       {
-        pagePath: "pages/actions/index",
-        text: "动作库",
-        iconPath: "./assets/tab-bar/actions.png",
-        selectedIconPath: "./assets/tab-bar/actions-active.png",
-      },
-      {
         pagePath: "pages/index/index",
         text: "首页",
         iconPath: "./assets/tab-bar/home.png",
         selectedIconPath: "./assets/tab-bar/home-active.png",
+      },
+      {
+        pagePath: "pages/actions/index",
+        text: "动作库",
+        iconPath: "./assets/tab-bar/actions.png",
+        selectedIconPath: "./assets/tab-bar/actions-active.png",
       },
     ],
   },

@@ -46,10 +46,7 @@ const Sheet = ({
   };
 
   return (
-    <View
-      catchMove
-      className={`sheet-container ${state !== "closed" ? "active" : ""}`}
-    >
+    <View className={`sheet-container ${state !== "closed" ? "active" : ""}`}>
       {/* 背景遮罩，仅在全屏状态显示 */}
       {state === "open" && (
         <View className="sheet-overlay" onClick={handleClose} />
