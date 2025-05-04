@@ -8,19 +8,17 @@ const ActionList = ({ actions = [], selectedActions = [], onActionSelect }) => {
   };
 
   return (
-    <ScrollView
-      scrollY
-      style={{ height: '90vh' }}
-      enhanced
-      showScrollbar
-      onTouchMove={(e) => e.stopPropagation()}
-    >
+    <View>
       {actions.length > 0 ? (
         <View className="actions-list">
           {actions.map((action) => (
             <View
               key={action.name}
-              className={`action-item ${selectedActions.some(a => a.name === action.name) ? 'selected' : ''}`}
+              className={`action-item ${
+                selectedActions.some((a) => a.name === action.name)
+                  ? "selected"
+                  : ""
+              }`}
               onClick={() => handleActionClick(action)}
             >
               <View className="action-image-placeholder">
@@ -45,7 +43,7 @@ const ActionList = ({ actions = [], selectedActions = [], onActionSelect }) => {
           <Text>没有找到符合条件的动作</Text>
         </View>
       )}
-    </ScrollView>
+    </View>
   );
 };
 
