@@ -2,19 +2,25 @@ import React from "react";
 import { View, Text, ScrollView } from "@tarojs/components";
 import "./index.scss";
 
-const ActionList = ({ actions = [], onActionSelect }) => {
+const ActionList = ({ actions = [], selectedActions = [], onActionSelect }) => {
   const handleActionClick = (action) => {
     onActionSelect(action);
   };
 
   return (
-    <ScrollView>
+    <ScrollView
+      scrollY
+      style={{ height: '90vh' }}
+      enhanced
+      showScrollbar
+      onTouchMove={(e) => e.stopPropagation()}
+    >
       {actions.length > 0 ? (
         <View className="actions-list">
           {actions.map((action) => (
             <View
               key={action.name}
-              className="action-item"
+              className={`action-item ${selectedActions.some(a => a.name === action.name) ? 'selected' : ''}`}
               onClick={() => handleActionClick(action)}
             >
               <View className="action-image-placeholder">

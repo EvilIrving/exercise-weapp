@@ -1,6 +1,7 @@
 import React, { useCallback, useState, useEffect } from "react";
-import { View, Text, Button, ScrollView } from "@tarojs/components";
+import { View, Text, Button } from "@tarojs/components";
 import Taro from "@tarojs/taro";
+import RecordsList from "../../components/RecordsList";
 import ExerciseSheet from "../../components/ExerciseSheet";
 import Card from "../../components/Card";
 
@@ -224,31 +225,8 @@ const Index = () => {
         </Button>
       </Card>
 
-      {recentRecords.length > 0 && (
-        <ScrollView>
-          <Text className="section-title">最近训练记录</Text>
-          <Card>
-            {recentRecords.map((record) => (
-              <View key={record.id} className="record-item">
-                <View className="record-info">
-                  <Text className="record-name">{record.exerciseName}</Text>
-                  <Text className="record-date">
-                    {new Date(record.date).toLocaleDateString()}
-                  </Text>
-                </View>
-                <View className="record-list">
-                  {record.sets.map((set) => (
-                    <Text>
-                      {set.reps} 次 x {set.weight} kg
-                    </Text>
-                  ))}
-                </View>
-              </View>
-            ))}
-          </Card>
-        </ScrollView>
-      )}
-      {/* 训练Sheet组件 */}
+      {recentRecords.length > 0 && <RecordsList records={recentRecords} />}
+
       <ExerciseSheet isOpen={showExerciseSheet} onClose={closeExerciseSheet} />
     </View>
   );
