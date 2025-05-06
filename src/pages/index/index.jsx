@@ -4,6 +4,7 @@ import Taro from "@tarojs/taro";
 import RecordsList from "../../components/RecordsList";
 import ExerciseSheet from "../../components/ExerciseSheet";
 import Card from "../../components/Card";
+import { useTrainingStore, useRecordsStore } from "./store";
 
 import "./index.scss";
 
@@ -37,163 +38,8 @@ const Index = () => {
     setShowExerciseSheet(false);
   }, []);
 
-  const recentRecords = [
-    {
-      id: "record1",
-      date: "2023-05-01",
-      exerciseName: "平板卧推",
-      sets: [
-        {
-          weight: 135, // 重量
-          reps: 10, // 次数
-          group: "1", // 组数
-          id: "1",
-        },
-        {
-          weight: 135,
-          reps: 10,
-          group: "2",
-          id: "2",
-        },
-        {
-          weight: 135,
-          reps: 10,
-          group: "3",
-          id: "3",
-        },
-        {
-          weight: 135,
-          reps: 10,
-          group: "4",
-          id: "4",
-        },
-      ],
-    },
-    {
-      id: "record2",
-      date: "2023-05-01",
-      exerciseName: "引体向上",
-      sets: [
-        {
-          weight: 135, // 重量
-          reps: 10, // 次数
-          group: "1", // 组数
-          id: "1",
-        },
-        {
-          weight: 135,
-          reps: 10,
-          group: "2",
-          id: "2",
-        },
-        {
-          weight: 135,
-          reps: 10,
-          group: "3",
-          id: "3",
-        },
-        {
-          weight: 135,
-          reps: 10,
-          group: "4",
-          id: "4",
-        },
-      ],
-    },
-    {
-      id: "record2",
-      date: "2023-05-01",
-      exerciseName: "qita",
-      sets: [
-        {
-          weight: 135, // 重量
-          reps: 10, // 次数
-          group: "1", // 组数
-          id: "1",
-        },
-        {
-          weight: 135,
-          reps: 10,
-          group: "2",
-          id: "2",
-        },
-        {
-          weight: 135,
-          reps: 10,
-          group: "3",
-          id: "3",
-        },
-        {
-          weight: 135,
-          reps: 10,
-          group: "4",
-          id: "4",
-        },
-      ],
-    },
-    {
-      id: "record5",
-      date: "2023-05-01",
-      exerciseName: "上斜卧推上",
-      sets: [
-        {
-          weight: 135, // 重量
-          reps: 10, // 次数
-          group: "1", // 组数
-          id: "1",
-        },
-        {
-          weight: 135,
-          reps: 10,
-          group: "2",
-          id: "2",
-        },
-        {
-          weight: 135,
-          reps: 10,
-          group: "3",
-          id: "3",
-        },
-        {
-          weight: 135,
-          reps: 10,
-          group: "4",
-          id: "4",
-        },
-      ],
-    },
-    {
-      id: "record4",
-      date: "2023-05-01",
-      exerciseName: "手臂弯矩",
-      sets: [
-        {
-          weight: 135, // 重量
-          reps: 10, // 次数
-          group: "1", // 组数
-          id: "1",
-        },
-        {
-          weight: 135,
-          reps: 10,
-          group: "2",
-          id: "2",
-        },
-        {
-          weight: 135,
-          reps: 10,
-          group: "3",
-          id: "3",
-        },
-        {
-          weight: 135,
-          reps: 10,
-          group: "4",
-          id: "4",
-        },
-      ],
-    },
-  ];
+  const { currentTraining, startTraining } = useTrainingStore();
+  const { records } = useRecordsStore();
 
   // 获取今天的日期
   const today = new Date();
@@ -225,7 +71,7 @@ const Index = () => {
         </Button>
       </Card>
 
-      {recentRecords.length > 0 && <RecordsList records={recentRecords} />}
+      {records.length > 0 && <RecordsList records={records} />}
 
       <ExerciseSheet isOpen={showExerciseSheet} onClose={closeExerciseSheet} />
     </View>

@@ -2,20 +2,23 @@
 // https://github.com/NervJS/taro/blob/next/packages/babel-preset-taro/README.md
 module.exports = {
   presets: [
-    ['taro', {
-      framework: 'react',
-      ts: false,
-      compiler: 'vite',
-    }]
+    [
+      "taro",
+      {
+        framework: "react",
+        ts: false,
+        compiler: "vite",
+      },
+    ],
   ],
   plugins: [
     [
-      'import',
+      "import",
       {
-        libraryName: 'taro-hooks',
-        camel2DashComponentName: false
+        libraryName: "taro-hooks",
+        camel2DashComponentName: false,
       },
-      'taro-hooks',
-    ]
+      "taro-hooks",
+    ],
   ],
 };

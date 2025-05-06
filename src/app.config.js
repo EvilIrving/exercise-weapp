@@ -7,6 +7,7 @@ export default {
     navigationBarTextStyle: "black",
   },
   tabBar: {
+    custom: false,
     color: "#999",
     selectedColor: "#1296db",
     backgroundColor: "#fff",
@@ -15,14 +16,14 @@ export default {
       {
         pagePath: "pages/index/index",
         text: "首页",
-        iconPath: "./assets/tab-bar/home.png",
-        selectedIconPath: "./assets/tab-bar/home-active.png",
+        // iconPath: "./assets/tab-bar/home.png",
+        // selectedIconPath: "./assets/tab-bar/home-active.png",
       },
       {
         pagePath: "pages/actions/index",
         text: "动作库",
-        iconPath: "./assets/tab-bar/actions.png",
-        selectedIconPath: "./assets/tab-bar/actions-active.png",
+        // iconPath: "./assets/tab-bar/actions.png",
+        // selectedIconPath: "./assets/tab-bar/actions-active.png",
       },
     ],
   },
