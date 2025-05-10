@@ -1,148 +1,92 @@
-import createPersistStore from "./createPersistStore";
+/**
+ * 训练记录 数据格式
+ const record = {
+  id: '123', // 记录 ID
+  exerciseName: '默认名称或自定义', // 训练名称
+  date: '2023-08-12', // 训练日期
+  notes: '训练备注', // 训练备注
+  duration: '30m', // 训练时长
+  exercises: [
+    {
+      id: '456', // 运动 ID
+      name: '深蹲', // 运动名称
+      sets: [
+        { weight: 12, reps: 12 }, // 重量 和 次数
+        { weight: 12, reps: 5 },
+        { weight: 12, reps: 5 },
+        { weight: 12, reps: 5 },
+      ]
+    }
+  ]
+ }
+ */
+
+import { create } from "zustand";
+import { immer } from "zustand/middleware/immer";
+import { createJSONStorage, persist } from "zustand/middleware";
+import createSelectors from "./libs/selector";
+import { zustandStorage, StorageSceneKey } from "./libs/storage";
 
 /**
  * 训练记录 Store
  */
-const useRecordsStore = createPersistStore("trainingRecords", (set, get) => ({
-  // 所有训练记录
+
+const initialState = {
   records: [],
+};
 
-  // 个人最佳记录
-  personalBests: {},
-
-  /**
-   * 添加训练记录
-   * @param {Object} record - 训练记录
-   */
-  addRecord: (record) => {
-    set((state) => {
-      const newRecords = [record, ...state.records];
-      // 更新个人最佳记录
-      const updatedBests = { ...state.personalBests };
-
-      // 遍历训练中的每个运动项目
-      record.exercises.forEach((exercise) => {
-        // 找出每个运动的最佳组
-        exercise.sets.forEach((setData) => {
-          const exerciseKey = exercise.name;
-          const currentBest = updatedBests[exerciseKey];
-
-          // 根据重量和次数计算总重量
-          const totalWeight = setData.weight * setData.reps;
-
-          // 如果没有记录或当前组超过最佳记录
-          if (!currentBest || totalWeight > currentBest.totalWeight) {
-            updatedBests[exerciseKey] = {
-              exerciseId: exercise.id,
-              exerciseName: exercise.name,
-              weight: setData.weight,
-              reps: setData.reps,
-              totalWeight: totalWeight,
-              date: record.endTime,
-              trainingId: record.id,
+const store = create(
+  immer(
+    persist(
+      (set, _get) => ({
+        records: initialState.records,
+        addRecord: (record) => {
+          set((state) => {
+            // 确保记录符合预期格式
+            const validRecord = {
+              id: record.id || Date.now().toString(),
+              exerciseName: record.exerciseName || "未命名训练",
+              date: record.date || new Date().toISOString().split("T")[0],
+              notes: record.notes || "",
+              duration: record.duration || "0m",
+              exercises: record.exercises || [],
             };
-          }
-        });
-      });
 
-      return {
-        records: newRecords,
-        personalBests: updatedBests,
-      };
-    });
-  },
-
-  /**
-   * 获取指定训练记录
-   * @param {string} recordId - 记录 ID
-   * @returns {Object|null} - 训练记录或 null
-   */
-  getRecord: (recordId) => {
-    const state = get();
-    return state.records.find((record) => record.id === recordId) || null;
-  },
-
-  /**
-   * 删除训练记录
-   * @param {string} recordId - 记录 ID
-   */
-  deleteRecord: (recordId) => {
-    set((state) => {
-      const newRecords = state.records.filter(
-        (record) => record.id !== recordId
-      );
-
-      // 重新计算个人最佳记录（当删除的记录可能包含最佳记录时）
-      const updatedBests = {};
-
-      newRecords.forEach((record) => {
-        record.exercises.forEach((exercise) => {
-          exercise.sets.forEach((setData) => {
-            const exerciseKey = exercise.name;
-            const currentBest = updatedBests[exerciseKey];
-            const totalWeight = setData.weight * setData.reps;
-
-            if (!currentBest || totalWeight > currentBest.totalWeight) {
-              updatedBests[exerciseKey] = {
-                exerciseId: exercise.id,
-                exerciseName: exercise.name,
-                weight: setData.weight,
-                reps: setData.reps,
-                totalWeight: totalWeight,
-                date: record.endTime,
-                trainingId: record.id,
-              };
-            }
+            return {
+              records: [validRecord, ...state.records],
+            };
           });
-        });
-      });
-
-      return {
-        records: newRecords,
-        personalBests: updatedBests,
-      };
-    });
-  },
-
-  /**
-   * 获取指定运动的历史记录
-   * @param {string} exerciseName - 运动名称
-   * @returns {Array} - 运动历史记录
-   */
-  getExerciseHistory: (exerciseName) => {
-    const state = get();
-    const history = [];
-
-    state.records.forEach((record) => {
-      record.exercises.forEach((exercise) => {
-        if (exercise.name === exerciseName) {
-          history.push({
-            trainingId: record.id,
-            trainingDate: record.startTime,
-            sets: exercise.sets,
-            totalVolume: exercise.sets.reduce(
-              (total, set) => total + set.weight * set.reps,
-              0
-            ),
+        },
+        getRecord: (recordId) => {
+          const state = _get();
+          return state.records.find((record) => record.id === recordId) || null;
+        },
+        updateRecord: (record) => {},
+        deleteRecord: (recordId) => {
+          set((state) => ({
+            records: state.records.filter((record) => record.id !== recordId),
+          }));
+        },
+        getRecordsByDate: (dateStr) => {
+          const state = _get();
+          return state.records.filter((record) => record.date === dateStr);
+        },
+        getRecordsByMonth: (record) => {},
+        clearRecords: (record) => {
+          set({
+            records: [],
           });
-        }
-      });
-    });
+        },
+      }),
+      {
+        name: StorageSceneKey.RECORDS,
+        storage: createJSONStorage(() => zustandStorage),
+      }
+    )
+  )
+);
+export const useRecordsStore = createSelectors(store);
 
-    return history.sort(
-      (a, b) => new Date(b.trainingDate) - new Date(a.trainingDate)
-    );
-  },
-
-  /**
-   * 清除所有记录
-   */
-  clearRecords: () => {
-    set({
-      records: [],
-      personalBests: {},
-    });
-  },
-}));
-
-export default useRecordsStore;
+export function useRecordsReset() {
+  store.setState(initialState);
+}

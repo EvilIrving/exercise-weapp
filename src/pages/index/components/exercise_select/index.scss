@@ -1,0 +1,18 @@
+.select-container {
+  height: 100%;
+  position: relative;
+
+  .confirm-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    .fab {
+      .check {
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
+      }
+    }
+  }
+}

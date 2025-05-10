@@ -1,6 +1,8 @@
 export default {
   designWidth: 375,
 
-  mini: {},
-  h5: {}
-}
+  mini: {
+    debugReact: true,
+  },
+  h5: {},
+};

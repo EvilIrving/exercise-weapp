@@ -1,0 +1,14 @@
+.actions-page {
+  padding: 20px;
+  background-color: #f8f8f8;
+  height: calc(100vh - 40px);
+
+  display: flex;
+  flex-direction: column;
+
+  .exercise-list {
+    flex: 1;
+    width: 100%;
+    overflow: hidden;
+  }
+}

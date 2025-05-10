@@ -1,4 +1,4 @@
-import useTrainingStore from "./useTrainingStore";
-import useRecordsStore from "./useRecordsStore";
+import { useTrainingStore, useTrainingReset } from "./useTrainingStore";
+import { useRecordsStore, useRecordsReset } from "./useRecordsStore";
 
-export { useTrainingStore, useRecordsStore };
+export { useTrainingStore, useTrainingReset, useRecordsStore, useRecordsReset };

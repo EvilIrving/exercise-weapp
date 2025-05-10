@@ -1,32 +1,15 @@
-import React, { useCallback, useState, useEffect } from "react";
+import React, { useCallback } from "react";
+import { useTrainingStore, useRecordsStore } from "../../stores";
 import { View, Text, Button } from "@tarojs/components";
-import Taro from "@tarojs/taro";
-import RecordsList from "../../components/RecordsList";
-import ExerciseSheet from "../../components/ExerciseSheet";
-import Card from "../../components/Card";
-import { useTrainingStore, useRecordsStore } from "./store";
-
+import { Card } from "../../components/ui";
+import { Records, TrainingSheet } from "./components";
 import "./index.scss";
 
 const Index = () => {
-  const [hasOngoingTraining, setHasOngoingTraining] = useState(false);
-  const [showExerciseSheet, setShowExerciseSheet] = useState(false);
-
-  // 检查是否有进行中的训练
-  useEffect(() => {
-    const ongoingTraining = Taro.getStorageSync("ongoingTraining");
-    setHasOngoingTraining(!!ongoingTraining);
-
-    // 监听训练状态变化
-    Taro.eventCenter.on("trainingStatusChange", () => {
-      const training = Taro.getStorageSync("ongoingTraining");
-      setHasOngoingTraining(!!training);
-    });
-
-    return () => {
-      Taro.eventCenter.off("trainingStatusChange");
-    };
-  }, []);
+  const [showExerciseSheet, setShowExerciseSheet] = React.useState(false);
+  const { isTraining } = useTrainingStore();
+  const { records, getRecordsByDate } = useRecordsStore();
+  const todayRecords = getRecordsByDate(new Date().toISOString().split("T")[0]);
 
   // 打开训练Sheet
   const openExerciseSheet = useCallback(() => {
@@ -37,9 +20,6 @@ const Index = () => {
   const closeExerciseSheet = useCallback(() => {
     setShowExerciseSheet(false);
   }, []);
-
-  const { currentTraining, startTraining } = useTrainingStore();
-  const { records } = useRecordsStore();
 
   // 获取今天的日期
   const today = new Date();
@@ -54,11 +34,11 @@ const Index = () => {
         <Text className="subtitle">记录每一次的训练进步</Text>
       </View>
 
-      <Card onClick={() => console.log("日期卡片被点击")}>
+      <Card>
         <Text className="date-text">今天是 {dateStr}</Text>
-        {recentRecords.length > 0 ? (
+        {records.length > 0 ? (
           <Text className="training-count">
-            已完成 {recentRecords.length} 次训练
+            已完成 {todayRecords.length} 次训练
           </Text>
         ) : (
           <Text className="training-count">今天还没有训练记录</Text>
@@ -67,13 +47,13 @@ const Index = () => {
 
       <Card>
         <Button type="primary" size="mini" onClick={openExerciseSheet}>
-          开始训练
+          {isTraining ? "继续训练" : "去训练"}
         </Button>
       </Card>
 
-      {records.length > 0 && <RecordsList records={records} />}
+      {records.length > 0 && <Records records={records} />}
 
-      <ExerciseSheet isOpen={showExerciseSheet} onClose={closeExerciseSheet} />
+      <TrainingSheet isOpen={showExerciseSheet} onClose={closeExerciseSheet} />
     </View>
   );
 };
