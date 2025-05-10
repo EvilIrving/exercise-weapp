@@ -1,0 +1,5391 @@
+[
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "Axe Hold",
+    "name_other": "Axe Hold",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Abs",
+    "equipment": ["Gym mat"],
+    "name": "Abdominal Stabilization",
+    "name_other": "Abdominal Stabilization",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Tricep Pushdown on Cable",
+    "name_other": "Empuje de tríceps en cable",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["Bench"],
+    "name": "Step-ups",
+    "name_other": "Adım atma",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Abs",
+    "equipment": ["Pull-up bar"],
+    "name": "commando pull-ups",
+    "name_other": "Trazioni alla sbarra commando",
+    "muscles": ["Shoulders", "Biceps", "Lats", ""],
+    "muscles_origin": [
+      "Anterior deltoid",
+      "Biceps brachii",
+      "Latissimus dorsi",
+      "Trapezius"
+    ]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Kettlebell"],
+    "name": "Single Arm Plank to Row",
+    "name_other": "Kettlebell swing a una mano",
+    "muscles": ["Shoulders", "Biceps", "", "Lats", "", "Abs", ""],
+    "muscles_origin": [
+      "Anterior deltoid",
+      "Biceps brachii",
+      "Brachialis",
+      "Latissimus dorsi",
+      "Obliquus externus abdominis",
+      "Rectus abdominis",
+      "Serratus anterior"
+    ]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Fingerboard 20 mm edge",
+    "name_other": "Fingerboard 20 mm edge",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Shoulders",
+    "equipment": [],
+    "name": "Cable Rear Delt Fly",
+    "name_other": "Cable Rear Delt Fly",
+    "muscles": ["Shoulders", ""],
+    "muscles_origin": ["Anterior deltoid", "Trapezius"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Dumbbell"],
+    "name": "Incline Bench Reverse Fly - Hello",
+    "name_other": "Incline Bench Reverse Fly - Hello",
+    "muscles": ["Shoulders", ""],
+    "muscles_origin": ["Anterior deltoid", "Trapezius"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": [],
+    "name": "Handstand Push Up",
+    "name_other": "Flexiones a pino",
+    "muscles": ["Shoulders", "Triceps"],
+    "muscles_origin": ["Anterior deltoid", "Triceps brachii"]
+  },
+  {
+    "category": "Cardio",
+    "equipment": [],
+    "name": "Zone 2 Running",
+    "name_other": "Corsa in zona 2",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": ["Dumbbell"],
+    "name": "LYING DUMBBELL ROW SS SEATED SHRUG",
+    "name_other": "LYING DUMBBELL ROW SS SEATED SHRUG",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Cardio",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Suspended crossess",
+    "name_other": "Croci in sospensione",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Bicipiti con trx",
+    "name_other": "Biceps con TRX",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["Kettlebell"],
+    "name": "Kettlebell Swing",
+    "name_other": "Kettlebell Swing",
+    "muscles": ["Shoulders", "Glutes"],
+    "muscles_origin": ["Anterior deltoid", "Gluteus maximus"]
+  },
+  {
+    "category": "Cardio",
+    "equipment": [],
+    "name": "Swimming 50m sprints",
+    "name_other": "Swimming 50m sprints",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Cardio",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Elliptical",
+    "name_other": "Elliptical",
+    "muscles": ["Glutes", "Quads", ""],
+    "muscles_origin": ["Gluteus maximus", "Quadriceps femoris", "Trapezius"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Kettlebell"],
+    "name": "one-handed kettlebell curls",
+    "name_other": "Curl con kettlebell una sola mano",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Medicine ball booklet crunch",
+    "name_other": "Crunch a libretto con palla medica",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Squat box",
+    "name_other": "Squat box",
+    "muscles": ["Glutes", "Quads", ""],
+    "muscles_origin": ["Gluteus maximus", "Quadriceps femoris", "Soleus"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["Pull-up bar"],
+    "name": "Knee Raises",
+    "name_other": "Addominali alla sbarra",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Sloper hanging",
+    "name_other": "Sloper hanging",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Dumbbell"],
+    "name": "Arnold Shoulder Press",
+    "name_other": "Arnold Press",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": ["Barbell"],
+    "name": "Barbell Hack Squats",
+    "name_other": "Barbell Hack Squats",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Chest",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbell Push-Up",
+    "name_other": "Dumbbell Push-Up",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Seated Hip Adduction",
+    "name_other": "Abduktoren-Maschine",
+    "muscles": ["Glutes"],
+    "muscles_origin": ["Gluteus maximus"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["Barbell"],
+    "name": "Barbell Lunges Standing",
+    "name_other": "Barbell Lunges Standing",
+    "muscles": ["Quads"],
+    "muscles_origin": ["Quadriceps femoris"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["Barbell"],
+    "name": "Barbell Lunges Walking",
+    "name_other": "Barbell Lunges Walking",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Abs",
+    "equipment": ["Barbell"],
+    "name": "Barbell Ab Rollout",
+    "name_other": "Barbell Ab Rollout",
+    "muscles": [""],
+    "muscles_origin": ["Obliquus externus abdominis"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Barbell"],
+    "name": "Barbell Triceps Extension",
+    "name_other": "Barbell Triceps Extension",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Barbell", "Bench"],
+    "name": "Barbell Reverse Wrist Curl",
+    "name_other": "Barbell Reverse Wrist Curl",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Chest",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Bear Walk",
+    "name_other": "Bear Walk",
+    "muscles": ["Shoulders", "Calves", "Chest", "Abs", "", "", "Triceps"],
+    "muscles_origin": [
+      "Anterior deltoid",
+      "Gastrocnemius",
+      "Pectoralis major",
+      "Rectus abdominis",
+      "Serratus anterior",
+      "Soleus",
+      "Triceps brachii"
+    ]
+  },
+  {
+    "category": "Cardio",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "High knees",
+    "name_other": "Corsa sul posto con ginocchia alte",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Lunges",
+    "name_other": "Affondi",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Arms",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Pullup on fingerboard",
+    "name_other": "Klimmzug an Leiste",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Arms",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Push-up rotations",
+    "name_other": "Draaiend opdrukken",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Side split squats left",
+    "name_other": "Bočni podijeljeni čučnjevi lijevo",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Side split squats right",
+    "name_other": "Bočni podijeljeni čučnjevi desno",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Bulgarian split squats left",
+    "name_other": "Bugarski podijeljeni čučanj lijevo",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Bulgarian split squats right",
+    "name_other": "Bugarski podijeljeni čučanj desno",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Kneeling kickbacks",
+    "name_other": "Coice",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Split squats left",
+    "name_other": "Dřep ve výpadu nalevo",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Reverse Nordic Curl",
+    "name_other": "Reverse Nordic Curl",
+    "muscles": ["Quads"],
+    "muscles_origin": ["Quadriceps femoris"]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Straight Bar Cable Curls",
+    "name_other": "Straight Bar Cable Curls",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Chest",
+    "equipment": [],
+    "name": "Cable Fly",
+    "name_other": "Cable Fly",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Split squats right",
+    "name_other": "Dřep ve výpadu napravo",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Cardio",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Jump rope: basic jumps",
+    "name_other": "Corda de Salto: saltos básicos",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Trazioni orizzontali al trx",
+    "name_other": "Trazioni orizzontali al trx",
+    "muscles": ["Shoulders", "Biceps", "Lats"],
+    "muscles_origin": ["Anterior deltoid", "Biceps brachii", "Latissimus dorsi"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["Pull-up bar"],
+    "name": "Leg raises pull up bar",
+    "name_other": "Addominali alla sbarra a gambe distese",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Forward arm circles",
+    "name_other": "Armkreisen vorwärts",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Arms",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Backward arm circles",
+    "name_other": "Achterwaartse arm cirkels",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Chest",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Mountain climbers",
+    "name_other": "Alpinista",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Chest",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "4-count burpees",
+    "name_other": "4-Hitung burpe",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Chest",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "No push-up burpees",
+    "name_other": "Angličáky bez kliku",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Reverse lunges",
+    "name_other": "Affondi inversi",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Arms",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Floor dips",
+    "name_other": "Bodensenken",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Chest",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "High plank",
+    "name_other": "Asse alto",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Child's pose",
+    "name_other": "Barnets position",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": ["Kettlebell"],
+    "name": "Kettlebell deadlifts",
+    "name_other": "Deadlift Kettlebell",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "Biceps Curls With Dumbbell",
+    "name_other": "Biceps Curls With Dumbbell",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Barbell"],
+    "name": "Bent Over Rowing",
+    "name_other": "Bent Over Rowing",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Body-Ups",
+    "name_other": "Body-Ups",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": ["Bench", "Dumbbell"],
+    "name": "Bent Over Dumbbell Rows",
+    "name_other": "Bent Over Dumbbell Rows",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["SZ-Bar"],
+    "name": "Biceps Curls With SZ-bar",
+    "name_other": "Biceps Curls With SZ-bar",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Bench", "Dumbbell"],
+    "name": "Bent-over Lateral Raises",
+    "name_other": "Bent-over Lateral Raises",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Chest",
+    "equipment": ["Bench", "Dumbbell"],
+    "name": "Benchpress Dumbbells",
+    "name_other": "Bankdrücken KH",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Barbell"],
+    "name": "Biceps Curls With Barbell",
+    "name_other": "Biceps Curls With Barbell",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["Barbell", "Bench"],
+    "name": "Bench Press",
+    "name_other": "Bankdrücken LH",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Barbell", "Bench"],
+    "name": "Bench Press Narrow Grip",
+    "name_other": "Bankdrücken Eng",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Biceps Curl With Cable",
+    "name_other": "Biceps Curl With Cable",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "One Arm Triceps Extensions on Cable",
+    "name_other": "One Arm Triceps Extensions on Cable",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Single Leg Extension",
+    "name_other": "Beinstrecker Einbeinig",
+    "muscles": ["Quads"],
+    "muscles_origin": ["Quadriceps femoris"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Dumbbell"],
+    "name": "Bent High Pulls",
+    "name_other": "Bent High Pulls",
+    "muscles": [""],
+    "muscles_origin": ["Trapezius"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Forward shoulder rotation",
+    "name_other": "Forward shoulder rotation",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Backward shoulder rotation",
+    "name_other": "Achterwaartse schouder draaiing",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Chin tuck",
+    "name_other": "Chin tuck",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Head turns",
+    "name_other": "Head turns",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Left neck stretch",
+    "name_other": "Alongamento de pescoço para esquerda",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Right neck stretch",
+    "name_other": "Alongamento de pescoço para direita",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Back neck stretch",
+    "name_other": "Achternek rekken",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "Alternating bicep curls",
+    "name_other": "Abwechselnde Bizepscurls",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Left levator scapulae stretch",
+    "name_other": "Dehnung des linken Schulterblattes",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Right levator scapulae stretch",
+    "name_other": "Dehnung des rechten Schulterblattes",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Clockwise neck circles",
+    "name_other": "Clockwise neck circles",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Counterclockwise neck circles",
+    "name_other": "Counterclockwise neck circles",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Neck half circles",
+    "name_other": "Nacken-Halbkreise",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Head tilts",
+    "name_other": "Head tilts",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Side plank right",
+    "name_other": "Bočni izdržaj desno",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Pistol squats right",
+    "name_other": "Dřep na pravé noze",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Calves",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Calf raises, right leg",
+    "name_other": "Angkat betis kaki kanan",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Nordic Curl",
+    "name_other": "Nordic Curl",
+    "muscles": ["Hamstrings"],
+    "muscles_origin": ["Biceps femoris"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["SZ-Bar"],
+    "name": "Reverse Preacher Curl (Close Grip)",
+    "name_other": "Curl de predicador inverso",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Chest",
+    "equipment": [],
+    "name": "SMITH MACHINE SLIGHT INCLINE PRESS",
+    "name_other": "SMITH MACHINE SLIGHT INCLINE PRESS",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Close-grip Lat Pull Down",
+    "name_other": "Close-grip Lat Pull Down",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Braced Squat",
+    "name_other": "Braced Squat",
+    "muscles": ["Quads"],
+    "muscles_origin": ["Quadriceps femoris"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Barbell", "Bench"],
+    "name": "Barbell Wrist Curl",
+    "name_other": "Barbell Wrist Curl",
+    "muscles": ["Shoulders", "Hamstrings"],
+    "muscles_origin": ["Anterior deltoid", "Biceps femoris"]
+  },
+  {
+    "category": "Calves",
+    "equipment": [],
+    "name": "Calf Press Using Leg Press Machine",
+    "name_other": "Calf Press Using Leg Press Machine",
+    "muscles": ["Calves", ""],
+    "muscles_origin": ["Gastrocnemius", "Soleus"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Pull-up bar"],
+    "name": "Chin-ups",
+    "name_other": "Chin-ups",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Calves",
+    "equipment": [],
+    "name": "Calf Raises on Hackenschmitt Machine",
+    "name_other": "Calf Raises on Hackenschmitt Machine",
+    "muscles": ["Calves"],
+    "muscles_origin": ["Gastrocnemius"]
+  },
+  {
+    "category": "Chest",
+    "equipment": [],
+    "name": "Butterfly Narrow Grip",
+    "name_other": "Butterfly Eng",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Abs",
+    "equipment": [],
+    "name": "Ball crunches",
+    "name_other": "Ball crunches",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Chest",
+    "equipment": [],
+    "name": "Butterfly",
+    "name_other": "Butterfly",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Abs",
+    "equipment": [],
+    "name": "Crunches on Machine",
+    "name_other": "Crunches an Maschine",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Chest",
+    "equipment": [],
+    "name": "Burpees",
+    "name_other": "Angličáky",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Abs",
+    "equipment": ["Incline bench"],
+    "name": "Incline Crunches",
+    "name_other": "Addominali su panca inclinata",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": [],
+    "name": "Butterfly Reverse",
+    "name_other": "Butterfly Reverse",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["Gym mat"],
+    "name": "Crunches",
+    "name_other": "Abdominal",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Abs",
+    "equipment": [],
+    "name": "Crunches With Legs Up",
+    "name_other": "Crunch con alzata di Gambe",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Chest",
+    "equipment": [],
+    "name": "Chest Press",
+    "name_other": "Brustpresse",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["Dumbbell"],
+    "name": "Cross-Bench Dumbbell Pullovers",
+    "name_other": "Croci su panca piana",
+    "muscles": ["Lats", "Chest", ""],
+    "muscles_origin": [
+      "Latissimus dorsi",
+      "Pectoralis major",
+      "Serratus anterior"
+    ]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Deadhang",
+    "name_other": "Deadhang",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Cardio",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Cycling",
+    "name_other": "Bicicletta",
+    "muscles": ["", ""],
+    "muscles_origin": ["Obliquus externus abdominis", "Trapezius"]
+  },
+  {
+    "category": "Abs",
+    "equipment": [],
+    "name": "Cable Woodchoppers",
+    "name_other": "Cable Woodchoppers",
+    "muscles": [""],
+    "muscles_origin": ["Obliquus externus abdominis"]
+  },
+  {
+    "category": "Abs",
+    "equipment": [],
+    "name": "Deadbug",
+    "name_other": "Deadbug",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": ["Pull-up bar"],
+    "name": "Chin Up",
+    "name_other": "Chin Up",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": ["Barbell"],
+    "name": "Deficit Deadlift",
+    "name_other": "Deficit Deadlift",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Abs",
+    "equipment": [],
+    "name": "Flutter Kicks",
+    "name_other": "Flutter Kicks",
+    "muscles": ["", "Abs"],
+    "muscles_origin": ["Obliquus externus abdominis", "Rectus abdominis"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Barbell"],
+    "name": "Deadlifts",
+    "name_other": "Deadlifts",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": [],
+    "name": "Facepull",
+    "name_other": "Face Pulls",
+    "muscles": [""],
+    "muscles_origin": ["Trapezius"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Bench"],
+    "name": "Diagonal Shoulder Press",
+    "name_other": "Diagonal Shoulder Press",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbell Goblet Squat",
+    "name_other": "Dumbbell Goblet Squat",
+    "muscles": ["Quads"],
+    "muscles_origin": ["Quadriceps femoris"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["Barbell"],
+    "name": "Decline Bench Press Barbell",
+    "name_other": "Decline Bench Press Barbell",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["Dumbbell"],
+    "name": "Decline Bench Press Dumbbell",
+    "name_other": "Decline Bench Press Dumbbell",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbell Lunges Standing",
+    "name_other": "Ausfallschritte Stehend",
+    "muscles": ["Quads"],
+    "muscles_origin": ["Quadriceps femoris"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["SZ-Bar"],
+    "name": "Reverse EZ Bar Cable Curls",
+    "name_other": "Reverse EZ Bar Cable Curls",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Chest",
+    "equipment": [],
+    "name": "Machine chest fly",
+    "name_other": "Machine chest fly",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Decline Pushups",
+    "name_other": "Decline Pushups",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Chest",
+    "equipment": [],
+    "name": "Fly With Cable",
+    "name_other": "Fly With Cable",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbell Lunges Walking",
+    "name_other": "Ausfallschritte im Gehen",
+    "muscles": ["Quads"],
+    "muscles_origin": ["Quadriceps femoris"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["Dumbbell"],
+    "name": "Fly With Dumbbells, Decline Bench",
+    "name_other": "Croci con Manubri su Panca Declinata",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["Dumbbell"],
+    "name": "Fly With Dumbbells",
+    "name_other": "Croci su panca Inclinata",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbell Incline Curl",
+    "name_other": "Bizeps KH-Curls Schrägbank",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbell Triceps Extension",
+    "name_other": "Dumbbell Triceps Extension",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Dips",
+    "name_other": "Dips",
+    "muscles": ["Chest", "Triceps"],
+    "muscles_origin": ["Pectoralis major", "Triceps brachii"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Bench"],
+    "name": "Dips Between Two Benches",
+    "name_other": "Dips Between Two Benches",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Dumbbells on Scott Machine",
+    "name_other": "Dumbbells on Scott Machine",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": [],
+    "name": "Front Raises with Plates",
+    "name_other": "Front Raises with Plates",
+    "muscles": ["Shoulders", ""],
+    "muscles_origin": ["Anterior deltoid", "Trapezius"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["Pull-up bar"],
+    "name": "Hanging Leg Raises",
+    "name_other": "Addominali alla sbarra",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Barbell", "Dumbbell"],
+    "name": "Front Raises",
+    "name_other": "Distensione lento avanti Bilanciere",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Hyperextensions",
+    "name_other": "Hyperextensions",
+    "muscles": [""],
+    "muscles_origin": ["Trapezius"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Hindu Squats",
+    "name_other": "Hindu Squats",
+    "muscles": ["Quads"],
+    "muscles_origin": ["Quadriceps femoris"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["Barbell"],
+    "name": "Front Squats",
+    "name_other": "Front Kniebeuge",
+    "muscles": ["Glutes"],
+    "muscles_origin": ["Gluteus maximus"]
+  },
+  {
+    "category": "Cardio",
+    "equipment": [],
+    "name": "High Knee Jumps",
+    "name_other": "High Knee Jumps",
+    "muscles": ["Hamstrings", "Calves", "Quads", ""],
+    "muscles_origin": [
+      "Biceps femoris",
+      "Gastrocnemius",
+      "Quadriceps femoris",
+      "Soleus"
+    ]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Hammercurls on Cable",
+    "name_other": "Hammercurls am Seil",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["Barbell"],
+    "name": "Barbell Hip Thrust",
+    "name_other": "Barbell Hip Thrust",
+    "muscles": ["Glutes"],
+    "muscles_origin": ["Gluteus maximus"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": [],
+    "name": "BUS DRIVERS",
+    "name_other": "BUS DRIVERS",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "Hammercurls",
+    "name_other": "Hammercurls",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Hand Grip",
+    "name_other": "Hand Grip",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Bench", "Dumbbell"],
+    "name": "Skullcrusher Dumbbells",
+    "name_other": "Frenchpress KH",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Bench", "SZ-Bar"],
+    "name": "Skullcrusher SZ-bar",
+    "name_other": "Frenchpress SZ-Stange",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Hip Raise, Lying",
+    "name_other": "Hip Raise, Lying",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": ["Barbell", "SZ-Bar"],
+    "name": "Front Pull narrow",
+    "name_other": "Front Pull narrow",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Barbell", "SZ-Bar"],
+    "name": "Front pull wide",
+    "name_other": "Front pull wide",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Hercules Pillars",
+    "name_other": "Hercules Pillars",
+    "muscles": ["Biceps", "", "Triceps"],
+    "muscles_origin": ["Biceps brachii", "Brachialis", "Triceps brachii"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Handstand Pushup",
+    "name_other": "Handstand Pushup",
+    "muscles": ["", "Triceps"],
+    "muscles_origin": ["Trapezius", "Triceps brachii"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["Barbell", "Bench"],
+    "name": "Hip Thrust",
+    "name_other": "Barbell Hip Thrust",
+    "muscles": ["Glutes"],
+    "muscles_origin": ["Gluteus maximus"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": [],
+    "name": "High Pull",
+    "name_other": "High Pull",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Glute Bridge",
+    "name_other": "Brücke Auf Dem Ball",
+    "muscles": ["Glutes"],
+    "muscles_origin": ["Gluteus maximus"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["Gym mat", "none (bodyweight exercise)"],
+    "name": "Hollow Hold",
+    "name_other": "Barchetta",
+    "muscles": ["", "Abs"],
+    "muscles_origin": ["Obliquus externus abdominis", "Rectus abdominis"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Good Mornings",
+    "name_other": "Good Mornings",
+    "muscles": ["Hamstrings"],
+    "muscles_origin": ["Biceps femoris"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Dumbbell", "Incline bench"],
+    "name": "Incline Dumbbell Row",
+    "name_other": "Incline Dumbbell Row",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Shoulders",
+    "equipment": [],
+    "name": "Front Plate Raise",
+    "name_other": "Front Plate Raise",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Leg Curls (laying)",
+    "name_other": "Beinbeuger Liegend",
+    "muscles": ["Hamstrings"],
+    "muscles_origin": ["Biceps femoris"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Lat Pull Down (Leaning Back)",
+    "name_other": "Lat Machine (Piegati Indietro)",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Lat Pull Down (Straight Back)",
+    "name_other": "Lat Pull Down (Straight Back)",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Leg Curls (sitting)",
+    "name_other": "Leg Curls (sitting)",
+    "muscles": ["Hamstrings"],
+    "muscles_origin": ["Biceps femoris"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": [],
+    "name": "Lateral Rows on Cable, One Armed",
+    "name_other": "Lateral Rows on Cable, One Armed",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Dumbbell"],
+    "name": "Lateral Raises",
+    "name_other": "Alzate Laterali",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["Barbell"],
+    "name": "Barbell Hip Thrust",
+    "name_other": "Barbell Hip Thrust",
+    "muscles": ["Glutes"],
+    "muscles_origin": ["Gluteus maximus"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Incline bench"],
+    "name": "Smith Press",
+    "name_other": "Smith Press",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Isometric Wipers",
+    "name_other": "Isometric Wipers",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Leg Curl",
+    "name_other": "Curl femoral",
+    "muscles": ["Hamstrings", "Glutes"],
+    "muscles_origin": ["Biceps femoris", "Gluteus maximus"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Dumbbell"],
+    "name": "Lateral-to-Front Raises",
+    "name_other": "Lateral-to-Front Raises",
+    "muscles": ["Shoulders", ""],
+    "muscles_origin": ["Anterior deltoid", "Trapezius"]
+  },
+  {
+    "category": "Chest",
+    "equipment": [],
+    "name": "Incline Push up",
+    "name_other": "Distensione Panca Inclinata Bilanciere",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Squats on Multipress",
+    "name_other": "Kniebeuge an Multipresse - Eng",
+    "muscles": ["Quads"],
+    "muscles_origin": ["Quadriceps femoris"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["Dumbbell", "Incline bench"],
+    "name": "Incline Dumbbell Fly",
+    "name_other": "Distensione Panca Inclinata Bilanciere",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Jumping Jacks",
+    "name_other": "Eκτάσεις-ανατάσεις με αναπήδηση",
+    "muscles": ["Quads"],
+    "muscles_origin": ["Quadriceps femoris"]
+  },
+  {
+    "category": "Abs",
+    "equipment": [],
+    "name": "Incline Plank With Alternate Floor Touch",
+    "name_other": "Incline Plank With Alternate Floor Touch",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["Kettlebell"],
+    "name": "Kettlebell Swings",
+    "name_other": "Kettlebell Swings",
+    "muscles": ["Glutes"],
+    "muscles_origin": ["Gluteus maximus"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Barbell"],
+    "name": "Landmine press",
+    "name_other": "Landmine press",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Chest",
+    "equipment": [],
+    "name": "Cable Cross-over",
+    "name_other": "Cable Cross-over",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Cardio",
+    "equipment": [],
+    "name": "Jogging",
+    "name_other": "Joggen",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Leverage Machine Iso Row",
+    "name_other": "Leverage Machine Iso Row",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Long-Pulley, Narrow",
+    "name_other": "Long-Pulley (eng)",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Abs",
+    "equipment": [],
+    "name": "Negative Crunches",
+    "name_other": "Crunches an Negativbank",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["SZ-Bar"],
+    "name": "Military Press mit SZ-Bar",
+    "name_other": "Military Press mit SZ-Bar",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Chest",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Diamond push ups",
+    "name_other": "Diamond push ups",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Abs",
+    "equipment": [],
+    "name": "Leg Raises, Standing",
+    "name_other": "Beinheben Aufrecht",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["SZ-Bar"],
+    "name": "Straight Bar Cable Front Raise",
+    "name_other": "Elevación frontal con cable",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Chest",
+    "equipment": [],
+    "name": "Leverage Machine Chest Press",
+    "name_other": "Leverage Machine Chest Press",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Quadriped Arm and Leg Raise",
+    "name_other": "Quadriped Arm and Leg Raise",
+    "muscles": ["Shoulders", "Glutes", "", ""],
+    "muscles_origin": [
+      "Anterior deltoid",
+      "Gluteus maximus",
+      "Serratus anterior",
+      "Trapezius"
+    ]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["Gym mat"],
+    "name": "Leg Raises, Lying",
+    "name_other": "Beinheben Liegend",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Leg Raise",
+    "name_other": "Alzate le gambe",
+    "muscles": ["", "Abs"],
+    "muscles_origin": ["Obliquus externus abdominis", "Rectus abdominis"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Long-Pulley (low Row)",
+    "name_other": "Long-Pulley",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["Barbell"],
+    "name": "Low Box Squat - Wide Stance",
+    "name_other": "Dřep do Sedu na Box",
+    "muscles": ["Glutes", "Quads"],
+    "muscles_origin": ["Gluteus maximus", "Quadriceps femoris"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Dumbbell"],
+    "name": "Lying Rotator Cuff Exercise",
+    "name_other": "Lying Rotator Cuff Exercise",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Leg Curls (standing)",
+    "name_other": "Beinbeuger Stehend",
+    "muscles": ["Hamstrings"],
+    "muscles_origin": ["Biceps femoris"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Leg Press on Hackenschmidt Machine",
+    "name_other": "Kniebeuge an Hackenschmidtmaschine",
+    "muscles": ["Quads"],
+    "muscles_origin": ["Quadriceps femoris"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Leg Presses (narrow)",
+    "name_other": "Beinpresse Eng",
+    "muscles": ["Quads"],
+    "muscles_origin": ["Quadriceps femoris"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Leg Presses (wide)",
+    "name_other": "Leg Presses (wide)",
+    "muscles": ["Quads"],
+    "muscles_origin": ["Quadriceps femoris"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Leg Press",
+    "name_other": "Beinpresse",
+    "muscles": ["Hamstrings", "Calves", "Glutes", "Quads"],
+    "muscles_origin": [
+      "Biceps femoris",
+      "Gastrocnemius",
+      "Gluteus maximus",
+      "Quadriceps femoris"
+    ]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Pull-up bar"],
+    "name": "Muscle up",
+    "name_other": "Muscle up",
+    "muscles": ["Biceps", "Hamstrings"],
+    "muscles_origin": ["Biceps brachii", "Biceps femoris"]
+  },
+  {
+    "category": "Abs",
+    "equipment": [],
+    "name": "L Hold",
+    "name_other": "L Hold",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": ["Barbell"],
+    "name": "Pendelay Rows",
+    "name_other": "Pendelay Rows",
+    "muscles": ["Lats", ""],
+    "muscles_origin": ["Latissimus dorsi", "Trapezius"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Rack Deadlift",
+    "name_other": "Rack Deadlift",
+    "muscles": ["Glutes"],
+    "muscles_origin": ["Gluteus maximus"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": [],
+    "name": "Push Press",
+    "name_other": "Push Press",
+    "muscles": [""],
+    "muscles_origin": ["Trapezius"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["Barbell", "Bench"],
+    "name": "Pause Bench",
+    "name_other": "Pause Bench",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["SZ-Bar"],
+    "name": "Preacher Curls",
+    "name_other": "Curl su Panca a 45°",
+    "muscles": [""],
+    "muscles_origin": ["Brachialis"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Push Ups",
+    "name_other": "Flexão de braços",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Prone Scapular Retraction - Arms at Side",
+    "name_other": "Prone Scapular Retraction - Arms at Side",
+    "muscles": [""],
+    "muscles_origin": ["Trapezius"]
+  },
+  {
+    "category": "Chest",
+    "equipment": [],
+    "name": "Perfect Push Up",
+    "name_other": "Perfect Push Up",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Pike Push Ups",
+    "name_other": "Flessioni del luccio",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Dumbbell"],
+    "name": "Rear Delt Raises",
+    "name_other": "Rear Delt Raises",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Pistol Squat",
+    "name_other": "Dřep na levé noze",
+    "muscles": ["Hamstrings", "Glutes"],
+    "muscles_origin": ["Biceps femoris", "Gluteus maximus"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Pull Ups on Machine",
+    "name_other": "Klimmzüge an Maschine",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Dumbbell"],
+    "name": "Seated Dumbbell Side Lateral",
+    "name_other": "Seated Dumbbell Side Lateral",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Pull-up bar"],
+    "name": "Pull-ups",
+    "name_other": "Dominadas",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Abs",
+    "equipment": [],
+    "name": "Overhand Cable Curl",
+    "name_other": "Overhand Cable Curl",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Plank",
+    "name_other": "Izdržaj na podlakticama",
+    "muscles": ["", "Abs"],
+    "muscles_origin": ["Obliquus externus abdominis", "Rectus abdominis"]
+  },
+  {
+    "category": "Abs",
+    "equipment": [],
+    "name": "Scissors",
+    "name_other": "Scissors",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Barbell", "Dumbbell"],
+    "name": "Reverse Curl",
+    "name_other": "Curl inversi con bilanciere",
+    "muscles": ["Biceps", ""],
+    "muscles_origin": ["Biceps brachii", "Brachialis"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Rowing, Seated",
+    "name_other": "Rowing, Seated",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["SZ-Bar"],
+    "name": "Reverse Bar Curl",
+    "name_other": "Reverse Bar Curl",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Dumbbell"],
+    "name": "Renegade Row",
+    "name_other": "Renegade Row",
+    "muscles": ["Lats", ""],
+    "muscles_origin": ["Latissimus dorsi", "Trapezius"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Rowing, T-bar",
+    "name_other": "Rowing, T-bar",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Bench", "Dumbbell"],
+    "name": "Seated Triceps Press",
+    "name_other": "French press",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Barbell"],
+    "name": "T-Bar row",
+    "name_other": "T-Bar row",
+    "muscles": ["Lats", ""],
+    "muscles_origin": ["Latissimus dorsi", "Trapezius"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Barbell", "Dumbbell", "Pull-up bar"],
+    "name": "Row",
+    "name_other": "Přítahy v Sedě s Oporou",
+    "muscles": ["Lats", ""],
+    "muscles_origin": ["Latissimus dorsi", "Trapezius"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Front Wood Chop",
+    "name_other": "Front Wood Chop",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Rowing, Lying on Bench",
+    "name_other": "Rowing, Lying on Bench",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Ring Dips",
+    "name_other": "Ring Dips",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Barbell"],
+    "name": "Bent Over Rowing Reverse",
+    "name_other": "Bent Over Rowing Reverse",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["Barbell"],
+    "name": "Romanian Deadlift",
+    "name_other": "Romanian Deadlift",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Abs",
+    "equipment": [],
+    "name": "Roman Chair",
+    "name_other": "Beinheben am Roman Chair",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Shoulders",
+    "equipment": [],
+    "name": "Shoulder Press, on Machine",
+    "name_other": "Schultermaschine",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["Barbell", "Bench"],
+    "name": "Reverse Grip Bench Press",
+    "name_other": "Reverse Grip Bench Press",
+    "muscles": ["Chest", "Triceps"],
+    "muscles_origin": ["Pectoralis major", "Triceps brachii"]
+  },
+  {
+    "category": "Cardio",
+    "equipment": [],
+    "name": "Run - Interval Training",
+    "name_other": "HIIT",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Chest",
+    "equipment": ["Barbell", "Incline bench"],
+    "name": "Incline Bench Press - Barbell",
+    "name_other": "Distensione Panca Inclinata Bilanciere",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Cardio",
+    "equipment": [],
+    "name": "Run",
+    "name_other": "Hardlopen",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Chest",
+    "equipment": [],
+    "name": "Incline Bench Press - MP",
+    "name_other": "Distensione su Panca Piana Imp Stretta",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Abs",
+    "equipment": [],
+    "name": "Reverse Plank",
+    "name_other": "Reverse Plank",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Shotgun Row",
+    "name_other": "Shotgun Row",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Abs",
+    "equipment": [],
+    "name": "Splinter Sit-ups",
+    "name_other": "Crunch Bicicletta",
+    "muscles": [""],
+    "muscles_origin": ["Obliquus externus abdominis"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Speed Deadlift",
+    "name_other": "Speed Deadlift",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Shoulders",
+    "equipment": [],
+    "name": "Shoulder Press, on Multi Press",
+    "name_other": "Frontdrücken MP",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Abs",
+    "equipment": [],
+    "name": "Sit-ups",
+    "name_other": "Abdominales",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Barbell Hip Thrust",
+    "name_other": "Barbell Hip Thrust",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "V-BAR PULL DOWNS",
+    "name_other": "V-BAR PULL DOWNS",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Dumbbell"],
+    "name": "Shoulder Press, Dumbbells",
+    "name_other": "Schulterdrücken KH",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Barbell"],
+    "name": "Shoulder Press, Barbell",
+    "name_other": "Schulterdrücken LH",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "Single-arm Preacher Curl",
+    "name_other": "Single-arm Preacher Curl",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Calves",
+    "equipment": [],
+    "name": "Sitting Calf Raises",
+    "name_other": "Sitting Calf Raises",
+    "muscles": [""],
+    "muscles_origin": ["Soleus"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["Dumbbell"],
+    "name": "Side Dumbbell Trunk Flexion",
+    "name_other": "Piegamenti laterali con manubri",
+    "muscles": [""],
+    "muscles_origin": ["Obliquus externus abdominis"]
+  },
+  {
+    "category": "Chest",
+    "equipment": [],
+    "name": "Side to Side Push Ups",
+    "name_other": "Push Up da un lato all'altro",
+    "muscles": ["Shoulders", "", "Chest", "Triceps"],
+    "muscles_origin": [
+      "Anterior deltoid",
+      "Obliquus externus abdominis",
+      "Pectoralis major",
+      "Triceps brachii"
+    ]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Smith Machine Close-grip Bench Press",
+    "name_other": "Smith Machine Close-grip Bench Press",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["Gym mat"],
+    "name": "Side Crunch",
+    "name_other": "Side Crunch",
+    "muscles": [""],
+    "muscles_origin": ["Obliquus externus abdominis"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Barbell"],
+    "name": "Shrugs, Barbells",
+    "name_other": "Scrollate con bilanciere",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": [],
+    "name": "Side-lying External Rotation",
+    "name_other": "Side-lying External Rotation",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Shoulders",
+    "equipment": [],
+    "name": "Shrugs on Multipress",
+    "name_other": "Shrugs an der MP",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Dumbbell"],
+    "name": "Shrugs, Dumbbells",
+    "name_other": "Shrugs KH",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Cardio",
+    "equipment": [],
+    "name": "Skipping - Standard",
+    "name_other": "Seilspringen",
+    "muscles": ["Calves"],
+    "muscles_origin": ["Gastrocnemius"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Shoulder Shrug",
+    "name_other": "Encolher os ombros",
+    "muscles": [""],
+    "muscles_origin": ["Trapezius"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Side Plank",
+    "name_other": "Bočni izdržaj lijevo",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["Dumbbell"],
+    "name": "Side Bends on Machine",
+    "name_other": "Seitliches Oberkörperbeugen am Gerät",
+    "muscles": [""],
+    "muscles_origin": ["Obliquus externus abdominis"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Straight-arm Pull Down (bar Attachment)",
+    "name_other": "Lat-Ziehen Mit Gesteckten Armen Mit (Stange)",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Sumo Squats",
+    "name_other": "Agachamentos de sumô",
+    "muscles": ["Glutes", "Quads"],
+    "muscles_origin": ["Gluteus maximus", "Quadriceps femoris"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Straight-arm Pull Down (rope Attachment)",
+    "name_other": "Lat-Zug am Seil",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Cardio",
+    "equipment": [],
+    "name": "Stationary Bike",
+    "name_other": "Stationary Bike",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Sumo Deadlift",
+    "name_other": "Sumo Deadlift",
+    "muscles": ["Quads"],
+    "muscles_origin": ["Quadriceps femoris"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Squat Thrust",
+    "name_other": "Agachamento de impulso",
+    "muscles": ["Glutes", "Quads", "Abs", ""],
+    "muscles_origin": [
+      "Gluteus maximus",
+      "Quadriceps femoris",
+      "Rectus abdominis",
+      "Soleus"
+    ]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["Barbell"],
+    "name": "Stiff-legged Deadlifts",
+    "name_other": "Polpacci",
+    "muscles": ["Hamstrings"],
+    "muscles_origin": ["Biceps femoris"]
+  },
+  {
+    "category": "Calves",
+    "equipment": [],
+    "name": "Standing Calf Raises",
+    "name_other": "Sollevamento dei polpacci in piedi",
+    "muscles": ["Calves"],
+    "muscles_origin": ["Gastrocnemius"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Squat Jumps",
+    "name_other": "Squat Jumps",
+    "muscles": ["Quads"],
+    "muscles_origin": ["Quadriceps femoris"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["Barbell"],
+    "name": "Thruster",
+    "name_other": "Thruster",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["Barbell"],
+    "name": "Squats",
+    "name_other": "Accroupi",
+    "muscles": ["Quads"],
+    "muscles_origin": ["Quadriceps femoris"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "Standing Bicep Curl",
+    "name_other": "Standing Bicep Curl",
+    "muscles": ["Biceps", ""],
+    "muscles_origin": ["Biceps brachii", "Brachialis"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "Tricep Dumbbell Kickback",
+    "name_other": "Contragolpe de tríceps con mancuernas",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Triceps Extensions on Cable With Bar",
+    "name_other": "Extensões de tríceps no cabo com barra",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Gym mat"],
+    "name": "Superman",
+    "name_other": "Superman",
+    "muscles": ["Glutes", "Lats"],
+    "muscles_origin": ["Gluteus maximus", "Latissimus dorsi"]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Triceps Machine",
+    "name_other": "Triceps Machine",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Standing Rope Forearm",
+    "name_other": "Standing Rope Forearm",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Abs",
+    "equipment": ["Dumbbell"],
+    "name": "Turkish Get-Up",
+    "name_other": "Turkish Get-Up",
+    "muscles": ["Shoulders", "Glutes", "", ""],
+    "muscles_origin": [
+      "Anterior deltoid",
+      "Gluteus maximus",
+      "Obliquus externus abdominis",
+      "Serratus anterior"
+    ]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Wall Handstand",
+    "name_other": "Flexión a pino contra la pared",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Wide-grip Pulldown",
+    "name_other": "Latzug Breit",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Underhand Lat Pull Down",
+    "name_other": "Underhand Lat Pull Down",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "SEATED CABLE MID TRAP SHRUG",
+    "name_other": "SEATED CABLE MID TRAP SHRUG",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Dumbbell"],
+    "name": "Upright Row w/ Dumbbells",
+    "name_other": "Upright Row w/ Dumbbells",
+    "muscles": ["Shoulders", ""],
+    "muscles_origin": ["Anterior deltoid", "Trapezius"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "V-Bar Pulldown",
+    "name_other": "V-Bar Pulldown",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Kettlebell"],
+    "name": "Curl with kettlebell two hands",
+    "name_other": "Curl con kettlebell a due mani",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["Barbell"],
+    "name": "Power Clean",
+    "name_other": "Power Clean",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Calves",
+    "equipment": [],
+    "name": "Calf raises, one legged",
+    "name_other": "Angkat kaki kiri anak sapi",
+    "muscles": ["Calves"],
+    "muscles_origin": ["Gastrocnemius"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["SZ-Bar"],
+    "name": "Upright Row, SZ-bar",
+    "name_other": "Rudern Aufrecht ß-Stange",
+    "muscles": ["Shoulders", ""],
+    "muscles_origin": ["Anterior deltoid", "Trapezius"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Wall Pushup",
+    "name_other": "Wall Pushup",
+    "muscles": ["Shoulders", "Chest", "Triceps"],
+    "muscles_origin": [
+      "Anterior deltoid",
+      "Pectoralis major",
+      "Triceps brachii"
+    ]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": [],
+    "name": "Upright Row, on Multi Press",
+    "name_other": "Rudern Aufrecht MP",
+    "muscles": ["Shoulders", ""],
+    "muscles_origin": ["Anterior deltoid", "Trapezius"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Weighted Step-ups",
+    "name_other": "Weighted Step-ups",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Chest",
+    "equipment": ["Pull-up bar"],
+    "name": "Upper External Oblique",
+    "name_other": "Upper External Oblique",
+    "muscles": [""],
+    "muscles_origin": ["Obliquus externus abdominis"]
+  },
+  {
+    "category": "Abs",
+    "equipment": [],
+    "name": "Trunk Rotation With Cable",
+    "name_other": "Trunk Rotation With Cable",
+    "muscles": [""],
+    "muscles_origin": ["Obliquus externus abdominis"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Wall Slides",
+    "name_other": "Scivoli a muro",
+    "muscles": ["Biceps", "Hamstrings", "Chest", "", "Triceps"],
+    "muscles_origin": [
+      "Biceps brachii",
+      "Biceps femoris",
+      "Pectoralis major",
+      "Trapezius",
+      "Triceps brachii"
+    ]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["Barbell"],
+    "name": "Overhead Press",
+    "name_other": "Overhead Press",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Bench"],
+    "name": "Elevated prayer stretch",
+    "name_other": "Elevated prayer stretch",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Quadruped thoracic rotation left",
+    "name_other": "Quadruped thoracic rotation left",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Quadruped thoracic rotation right",
+    "name_other": "Quadruped thoracic rotation right",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Abs",
+    "equipment": ["Gym mat"],
+    "name": "Plate twist",
+    "name_other": "Plate twist",
+    "muscles": ["", "Abs"],
+    "muscles_origin": ["Obliquus externus abdominis", "Rectus abdominis"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": [],
+    "name": "Hindu Pushups",
+    "name_other": "Hindu Pushups",
+    "muscles": ["Shoulders", "Chest"],
+    "muscles_origin": ["Anterior deltoid", "Pectoralis major"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": [],
+    "name": "Shoulder dislocates",
+    "name_other": "Shoulder dislocates",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Bent over row to external rotation",
+    "name_other": "Bent over row to external rotation",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "YWTs",
+    "name_other": "YWTs",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbell Floor Press",
+    "name_other": "Dumbbell Floor Press",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbell Bent Over Row",
+    "name_other": "Dumbbell Bent Over Row",
+    "muscles": ["Shoulders", "Biceps", "Lats", "", "", "Triceps"],
+    "muscles_origin": [
+      "Anterior deltoid",
+      "Biceps brachii",
+      "Latissimus dorsi",
+      "Serratus anterior",
+      "Trapezius",
+      "Triceps brachii"
+    ]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Close-grip Press-ups",
+    "name_other": "Close-grip Press-ups",
+    "muscles": ["", "Lats", "Chest", ""],
+    "muscles_origin": [
+      "Brachialis",
+      "Latissimus dorsi",
+      "Pectoralis major",
+      "Trapezius"
+    ]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbell Hang Power Cleans",
+    "name_other": "Dumbbell Hang Power Cleans",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbell sumo deadlift",
+    "name_other": "Dumbbell sumo deadlift",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Abs",
+    "equipment": ["Swiss Ball"],
+    "name": "Medicine ball twist",
+    "name_other": "Medicine ball twist",
+    "muscles": ["", "Abs"],
+    "muscles_origin": ["Obliquus externus abdominis", "Rectus abdominis"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Vpushup",
+    "name_other": "Vpushup",
+    "muscles": ["Chest", "Quads", "Abs", "Triceps"],
+    "muscles_origin": [
+      "Pectoralis major",
+      "Quadriceps femoris",
+      "Rectus abdominis",
+      "Triceps brachii"
+    ]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["Gym mat"],
+    "name": "Plank Shoulter Taps",
+    "name_other": "Plancha a una mano alterna",
+    "muscles": ["Shoulders", "Glutes", "Abs"],
+    "muscles_origin": [
+      "Anterior deltoid",
+      "Gluteus maximus",
+      "Rectus abdominis"
+    ]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["Kettlebell"],
+    "name": "2 Handed Kettlebell Swing",
+    "name_other": "2 Handed Kettlebell Swing",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Incline Skull Crush",
+    "name_other": "Incline Skull Crush",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Dumbbell"],
+    "name": "Rear Delt Raise",
+    "name_other": "Elevación Deltoides Posterior",
+    "muscles": ["Shoulders", ""],
+    "muscles_origin": ["Anterior deltoid", "Trapezius"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Front neck stretch",
+    "name_other": "Alongamento frontal do pescoço",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Cardio",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Rowing Machine",
+    "name_other": "Rowing Machine",
+    "muscles": [
+      "Shoulders",
+      "Biceps",
+      "Hamstrings",
+      "",
+      "Calves",
+      "Glutes",
+      "Lats",
+      "",
+      "Quads",
+      "Abs",
+      "",
+      "",
+      ""
+    ],
+    "muscles_origin": [
+      "Anterior deltoid",
+      "Biceps brachii",
+      "Biceps femoris",
+      "Brachialis",
+      "Gastrocnemius",
+      "Gluteus maximus",
+      "Latissimus dorsi",
+      "Obliquus externus abdominis",
+      "Quadriceps femoris",
+      "Rectus abdominis",
+      "Serratus anterior",
+      "Soleus",
+      "Trapezius"
+    ]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["Bench"],
+    "name": "Seated Bench Press",
+    "name_other": "Press Banca Sentado",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["Bench"],
+    "name": "Press de banca sentado",
+    "name_other": "Press de banca sentado",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Abduktion im Stand",
+    "name_other": "Abduktion im Stand",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Abduktion im Stand",
+    "name_other": "Abduktion im Stand",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": ["Dumbbell"],
+    "name": "Seated rear delt rise",
+    "name_other": "Seated rear delt rise",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["Kettlebell"],
+    "name": "Dynamic side hold",
+    "name_other": "Dynamic side hold",
+    "muscles": [""],
+    "muscles_origin": ["Obliquus externus abdominis"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["Swiss Ball"],
+    "name": "Wall balls",
+    "name_other": "Wall balls",
+    "muscles": ["Shoulders", "Glutes", "Quads"],
+    "muscles_origin": [
+      "Anterior deltoid",
+      "Gluteus maximus",
+      "Quadriceps femoris"
+    ]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["Pull-up bar"],
+    "name": "Horizontal traction isometry",
+    "name_other": "Horizontal traction isometry",
+    "muscles": ["Lats", "Chest"],
+    "muscles_origin": ["Latissimus dorsi", "Pectoralis major"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Alternate back lunges",
+    "name_other": "Affondi indietro alternati",
+    "muscles": ["Glutes", "Quads"],
+    "muscles_origin": ["Gluteus maximus", "Quadriceps femoris"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "walking bridge",
+    "name_other": "Ponte in camminata",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Cardio",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Walking",
+    "name_other": "Walking",
+    "muscles": ["Hamstrings", "Calves", "Glutes", "Lats", "", "Quads", "Abs"],
+    "muscles_origin": [
+      "Biceps femoris",
+      "Gastrocnemius",
+      "Gluteus maximus",
+      "Latissimus dorsi",
+      "Obliquus externus abdominis",
+      "Quadriceps femoris",
+      "Rectus abdominis"
+    ]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Seated Knee Tuck",
+    "name_other": "Seated Knee Tuck",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Seated Knee Tuck",
+    "name_other": "Seated Knee Tuck",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Cable Concentration Curl",
+    "name_other": "Biceps concentrado",
+    "muscles": ["Biceps", ""],
+    "muscles_origin": ["Biceps brachii", "Brachialis"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Push-Ups",
+    "name_other": "Lagartijas",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["Bench", "Incline bench"],
+    "name": "Push-Ups | Incline",
+    "name_other": "Push-Ups | Incline",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["Bench", "Incline bench"],
+    "name": "Push-Ups | Decline",
+    "name_other": "Push-Ups | Decline",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Chest",
+    "equipment": [],
+    "name": "Push-Ups | Parallettes",
+    "name_other": "Push-Ups | Parallettes",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Rest (for timed workouts)",
+    "name_other": "Rest (for timed workouts)",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Cardio",
+    "equipment": ["Dumbbell"],
+    "name": "3D lunge warmup",
+    "name_other": "3D lunge warmup",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbell farmer's carrie",
+    "name_other": "Dumbbell farmer's carrie",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Remo maquina abierto supino",
+    "name_other": "Remo maquina abierto supino",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Remo maquina agarre estrecho",
+    "name_other": "Remo maquina agarre estrecho",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Remo maquina agarre estrecho supino",
+    "name_other": "Remo maquina agarre estrecho supino",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Elevación de talón sentados",
+    "name_other": "Elevación de talón sentados",
+    "muscles": ["Calves", ""],
+    "muscles_origin": ["Gastrocnemius", "Soleus"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Elevación de talón de pie",
+    "name_other": "Elevación de talón de pie",
+    "muscles": ["Calves", ""],
+    "muscles_origin": ["Gastrocnemius", "Soleus"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Jalón abierto",
+    "name_other": "Jalón abierto",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Jalón abierto supino",
+    "name_other": "Jalón abierto supino",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Jalón cerrado",
+    "name_other": "Jalón cerrado",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Jalón cerrado supino",
+    "name_other": "Jalón cerrado supino",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Curl de biceps con mancuernas sentado",
+    "name_other": "Curl de biceps con mancuernas sentado",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Chest",
+    "equipment": [],
+    "name": "Aperturas en polea",
+    "name_other": "Aperturas en polea",
+    "muscles": ["Shoulders", "Biceps", "Chest"],
+    "muscles_origin": ["Anterior deltoid", "Biceps brachii", "Pectoralis major"]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Biceps concentrado martillo (maquina)",
+    "name_other": "Biceps concentrado martillo (maquina)",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Extensión de gluteos en polea",
+    "name_other": "Extensión de gluteos en polea",
+    "muscles": ["Glutes"],
+    "muscles_origin": ["Gluteus maximus"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Extensión de gluteo en  máquina",
+    "name_other": "Extensión de gluteo en  máquina",
+    "muscles": ["Glutes"],
+    "muscles_origin": ["Gluteus maximus"]
+  },
+  {
+    "category": "Chest",
+    "equipment": [],
+    "name": "PRESS HORIZONTAL",
+    "name_other": "PRESS HORIZONTAL",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "JALONES PECHO NEUTRO",
+    "name_other": "JALONES PECHO NEUTRO",
+    "muscles": ["Biceps", "Lats", ""],
+    "muscles_origin": [
+      "Biceps brachii",
+      "Latissimus dorsi",
+      "Serratus anterior"
+    ]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "PULL OVER POLEA ALTA",
+    "name_other": "PULL OVER POLEA ALTA",
+    "muscles": ["Lats", ""],
+    "muscles_origin": ["Latissimus dorsi", "Serratus anterior"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "JALON EN BANCO INCLINADO",
+    "name_other": "JALON EN BANCO INCLINADO",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Curl Araña",
+    "name_other": "Curl Araña",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Gemelos en prensa",
+    "name_other": "Gemelos en prensa",
+    "muscles": [""],
+    "muscles_origin": ["Soleus"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Arabesque",
+    "name_other": "Arabesque",
+    "muscles": ["Hamstrings", "Glutes"],
+    "muscles_origin": ["Biceps femoris", "Gluteus maximus"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Curl femoral sentado",
+    "name_other": "Curl femoral sentado",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Back extensión",
+    "name_other": "Back extensión",
+    "muscles": ["Lats", ""],
+    "muscles_origin": ["Latissimus dorsi", "Serratus anterior"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Remo Gironda",
+    "name_other": "Remo Gironda",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Iperestensioni Lombari",
+    "name_other": "Iperestensioni Lombari",
+    "muscles": ["Glutes"],
+    "muscles_origin": ["Gluteus maximus"]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Triceps Pushdown",
+    "name_other": "Triceps Pushdown",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "One Arm Bent Row",
+    "name_other": "One Arm Bent Row",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "High Pull",
+    "name_other": "High Pull",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["Dumbbell"],
+    "name": "Flexión lateral",
+    "name_other": "Flexión lateral",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Abs",
+    "equipment": ["Kettlebell"],
+    "name": "Abdominales sovieticas",
+    "name_other": "Abdominales sovieticas",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "Curl de biceps con agarre prono",
+    "name_other": "Curl de biceps con agarre prono",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "Alternating Biceps Curls With Dumbbell",
+    "name_other": "Alternating Biceps Curls With Dumbbell",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["Dumbbell", "Gym mat", "Swiss Ball"],
+    "name": "Russian Twist",
+    "name_other": "Russian Twist",
+    "muscles": ["Lats", "", "Abs"],
+    "muscles_origin": [
+      "Latissimus dorsi",
+      "Obliquus externus abdominis",
+      "Rectus abdominis"
+    ]
+  },
+  {
+    "category": "Abs",
+    "equipment": [],
+    "name": "PALLOF PRESS",
+    "name_other": "PALLOF PRESS",
+    "muscles": ["Shoulders", "Glutes", "", "Abs", "", ""],
+    "muscles_origin": [
+      "Anterior deltoid",
+      "Gluteus maximus",
+      "Obliquus externus abdominis",
+      "Rectus abdominis",
+      "Serratus anterior",
+      "Trapezius"
+    ]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Side Slides + Squats",
+    "name_other": "Side Slides + Squats",
+    "muscles": ["Quads"],
+    "muscles_origin": ["Quadriceps femoris"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Wall Drills",
+    "name_other": "Wall Drills",
+    "muscles": ["Quads"],
+    "muscles_origin": ["Quadriceps femoris"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Inverted Rows",
+    "name_other": "Inverted Rows",
+    "muscles": ["Biceps", "Lats"],
+    "muscles_origin": ["Biceps brachii", "Latissimus dorsi"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Adduktorenmaschine",
+    "name_other": "Adduktorenmaschine",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Calves",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Tibialis raises",
+    "name_other": "Elevación tibial anterior",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Dragon squat",
+    "name_other": "Dragon squat",
+    "muscles": ["Quads"],
+    "muscles_origin": ["Quadriceps femoris"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Side Lying Hip Abduction",
+    "name_other": "Side Lying Hip Abduction",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Calves",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Calf raises, left leg",
+    "name_other": "Calf raises, left leg",
+    "muscles": ["Calves"],
+    "muscles_origin": ["Gastrocnemius"]
+  },
+  {
+    "category": "Cardio",
+    "equipment": [],
+    "name": "Cycling cardio session",
+    "name_other": "Cycling cardio session",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "Wrist curl, dumbbells",
+    "name_other": "Wrist curl, dumbbells",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "scorpion kick",
+    "name_other": "Skorpion-Kick",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Scorpion Kick",
+    "name_other": "Scorpion Kick",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Prisoner Squat",
+    "name_other": "Prisoner Squat",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Skydiver with arms in T-position",
+    "name_other": "Fallschirmspringer in T-Position",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": ["Dumbbell", "Kettlebell"],
+    "name": "Romanian deadlift, single leg",
+    "name_other": "Romanian deadlift, single leg",
+    "muscles": ["Hamstrings"],
+    "muscles_origin": ["Biceps femoris"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Barbell"],
+    "name": "Bent Over Rowing Reverse",
+    "name_other": "Bent Over Rowing Reverse",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Full Sit Outs",
+    "name_other": "Full Sit Outs",
+    "muscles": ["Glutes", "", "Abs"],
+    "muscles_origin": [
+      "Gluteus maximus",
+      "Obliquus externus abdominis",
+      "Rectus abdominis"
+    ]
+  },
+  {
+    "category": "Back",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Reverse Snow Angel",
+    "name_other": "Reverse Snow Angel",
+    "muscles": [""],
+    "muscles_origin": ["Trapezius"]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Recruitment Pulls",
+    "name_other": "Recruitment Pulls",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Arms",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Finger Pushup",
+    "name_other": "Finger Pushup",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Arms",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "knee push-ups",
+    "name_other": "Pompes sur les genoux",
+    "muscles": ["Shoulders", "Chest"],
+    "muscles_origin": ["Anterior deltoid", "Pectoralis major"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Australian pull-ups",
+    "name_other": "Australian pull-ups",
+    "muscles": ["Shoulders", "Biceps", "Lats"],
+    "muscles_origin": ["Anterior deltoid", "Biceps brachii", "Latissimus dorsi"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Claps over the head",
+    "name_other": "Claps over the head",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbell drag curls",
+    "name_other": "Dumbbell drag curls",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Leg Extension",
+    "name_other": "Curl cuadriceps",
+    "muscles": ["Quads"],
+    "muscles_origin": ["Quadriceps femoris"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbell wide bicep curls",
+    "name_other": "Dumbbell wide bicep curls",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Overhead Squat",
+    "name_other": "Overhead Squat",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbell bicep curl to press",
+    "name_other": "Dumbbell bicep curl to press",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Cardio",
+    "equipment": [],
+    "name": "Run - Treadmill",
+    "name_other": "Run - Treadmill",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbell rear delt row",
+    "name_other": "Dumbbell rear delt row",
+    "muscles": ["Shoulders", "", ""],
+    "muscles_origin": ["Anterior deltoid", "Brachialis", "Trapezius"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["Dumbbell", "Incline bench"],
+    "name": "Incline Bench Press - Dumbbell",
+    "name_other": "Incline Bench Press - Dumbbell",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbell close grip bench press",
+    "name_other": "Dumbbell close grip bench press",
+    "muscles": ["Chest", "Triceps"],
+    "muscles_origin": ["Pectoralis major", "Triceps brachii"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Barbell"],
+    "name": "Snach",
+    "name_other": "Snach",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbell upright-row",
+    "name_other": "Dumbbell upright-row",
+    "muscles": ["Shoulders", "Biceps", ""],
+    "muscles_origin": [
+      "Anterior deltoid",
+      "Biceps brachii",
+      "Serratus anterior"
+    ]
+  },
+  {
+    "category": "Abs",
+    "equipment": [],
+    "name": "Crunches With Cable",
+    "name_other": "Crunches With Cable",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Triceps stretch left",
+    "name_other": "Triceps stretch left",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Seated Cable Rows",
+    "name_other": "Seated Cable Rows",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Triceps stretch right",
+    "name_other": "Triceps stretch right",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Standing biceps stretch left",
+    "name_other": "Standing biceps stretch left",
+    "muscles": ["Shoulders", "Biceps", "Chest"],
+    "muscles_origin": ["Anterior deltoid", "Biceps brachii", "Pectoralis major"]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Triceps Extensions on Cable",
+    "name_other": "Extension de triceps polea",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Standing biceps stretch right",
+    "name_other": "Standing biceps stretch right",
+    "muscles": ["Shoulders", "Biceps", "Chest"],
+    "muscles_origin": ["Anterior deltoid", "Biceps brachii", "Pectoralis major"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["Barbell"],
+    "name": "Dumbbell Single-leg Hip Thrust",
+    "name_other": "Dumbbell Single-leg Hip Thrust",
+    "muscles": ["Glutes"],
+    "muscles_origin": ["Gluteus maximus"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Rowing with TRX band",
+    "name_other": "Rowing with TRX band",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Wall Squat",
+    "name_other": "Agachamento parede",
+    "muscles": ["Hamstrings", "Quads"],
+    "muscles_origin": ["Biceps femoris", "Quadriceps femoris"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Frog stand",
+    "name_other": "Frog stand",
+    "muscles": ["Shoulders", "Biceps", "", "Abs"],
+    "muscles_origin": [
+      "Anterior deltoid",
+      "Biceps brachii",
+      "Brachialis",
+      "Rectus abdominis"
+    ]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Standing Calf Stretch",
+    "name_other": "Standing Calf Stretch",
+    "muscles": ["Calves"],
+    "muscles_origin": ["Gastrocnemius"]
+  },
+  {
+    "category": "Cardio",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Bag training",
+    "name_other": "Allenamento al sacco",
+    "muscles": ["Shoulders", "Chest", ""],
+    "muscles_origin": ["Anterior deltoid", "Pectoralis major", "Trapezius"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Standing Soleus Stretch",
+    "name_other": "Standing Soleus Stretch",
+    "muscles": [""],
+    "muscles_origin": ["Soleus"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Exercise Band Dorsiflexion",
+    "name_other": "Exercise Band Dorsiflexion",
+    "muscles": [""],
+    "muscles_origin": ["Soleus"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Seated Cable Row",
+    "name_other": "Rematore seduto al cavo",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Exercise Band Plantarflexion",
+    "name_other": "Exercise Band Plantarflexion",
+    "muscles": ["Calves"],
+    "muscles_origin": ["Gastrocnemius"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Double Leg Calf Raise",
+    "name_other": "Double Leg Calf Raise",
+    "muscles": ["Calves", ""],
+    "muscles_origin": ["Gastrocnemius", "Soleus"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "REMO AL MENTON",
+    "name_other": "REMO AL MENTON",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Gym mat"],
+    "name": "Yoga exercise: Cow-cat",
+    "name_other": "Esercizio di yoga: Mucca-gatto",
+    "muscles": ["Shoulders", "Lats", ""],
+    "muscles_origin": ["Anterior deltoid", "Latissimus dorsi", "Trapezius"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Front Lever",
+    "name_other": "Front Lever",
+    "muscles": ["Lats", "Abs"],
+    "muscles_origin": ["Latissimus dorsi", "Rectus abdominis"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Shoulder width three-point push-up",
+    "name_other": "Schulterbreite Dreipunkt-Liegestütze",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "TRX roll out",
+    "name_other": "TRX roll out",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Abs",
+    "equipment": [],
+    "name": "Bauchtrainer",
+    "name_other": "Bauchtrainer",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Ice Scream maker",
+    "name_other": "Ice Scream maker",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Pull-up bar"],
+    "name": "Trazioni orizzontali",
+    "name_other": "Trazioni orizzontali",
+    "muscles": ["Shoulders", "Biceps", "Lats"],
+    "muscles_origin": ["Anterior deltoid", "Biceps brachii", "Latissimus dorsi"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Leg Extension",
+    "name_other": "Extensión de cuádriceps",
+    "muscles": ["Quads"],
+    "muscles_origin": ["Quadriceps femoris"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["Pull-up bar"],
+    "name": "Front lever pull-up",
+    "name_other": "Front lever pull-up",
+    "muscles": ["Biceps", "Lats", "Abs"],
+    "muscles_origin": ["Biceps brachii", "Latissimus dorsi", "Rectus abdominis"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Pull-up bar"],
+    "name": "Front lever tuck",
+    "name_other": "Front lever tuck",
+    "muscles": ["Shoulders", "Biceps", "Lats"],
+    "muscles_origin": ["Anterior deltoid", "Biceps brachii", "Latissimus dorsi"]
+  },
+  {
+    "category": "Abs",
+    "equipment": [],
+    "name": "Oblicuos en TRX",
+    "name_other": "Oblicuos en TRX",
+    "muscles": ["", "Abs", ""],
+    "muscles_origin": [
+      "Obliquus externus abdominis",
+      "Rectus abdominis",
+      "Serratus anterior"
+    ]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "TRX hammer curl - biceps",
+    "name_other": "TRX hammer curl - biceps",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": [],
+    "name": "Cable External Rotation",
+    "name_other": "Cable External Rotation",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "TRX gorilla biceps curl",
+    "name_other": "TRX gorilla biceps curl",
+    "muscles": [""],
+    "muscles_origin": ["Brachialis"]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Trx Single Arm Bicep Curl",
+    "name_other": "TRX - curl de bíceps a un brazo",
+    "muscles": ["Biceps", ""],
+    "muscles_origin": ["Biceps brachii", "Brachialis"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Back bridge",
+    "name_other": "Back bridge",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbell Concentration Curl",
+    "name_other": "Dumbbell Concentration Curl",
+    "muscles": [""],
+    "muscles_origin": ["Brachialis"]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "TRX Tricep Extension",
+    "name_other": "TRX Tricep Extension",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "TRX dips",
+    "name_other": "Fondos en TRX",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Chest",
+    "equipment": [],
+    "name": "Low Pulley Cable fFly",
+    "name_other": "Low Pulley Cable fFly",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Chest",
+    "equipment": [],
+    "name": "Low Pulley Cable fFly",
+    "name_other": "Low Pulley Cable fFly",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Chest",
+    "equipment": [],
+    "name": "Low Pulley Cable fFly",
+    "name_other": "Croci ai Cavi Bassi",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Dumbbell"],
+    "name": "Pullover",
+    "name_other": "Pullover",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Sitting Calf Stretch (Dorsiflexion)",
+    "name_other": "Sitting Calf Stretch (Dorsiflexion)",
+    "muscles": ["Calves", ""],
+    "muscles_origin": ["Gastrocnemius", "Soleus"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Plantarflexion Stretch with Band",
+    "name_other": "Plantarflexion Stretch with Band",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Chest",
+    "equipment": ["Dumbbell"],
+    "name": "Incline Dumbbell Bench Press",
+    "name_other": "Incline Dumbbell Bench Press",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["Dumbbell"],
+    "name": "Incline Dumbbell Press",
+    "name_other": "Incline Dumbbell Press",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Chest",
+    "equipment": [],
+    "name": "Dumbbell Chest Press",
+    "name_other": "Dumbbell Chest Press",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Biceps Close Grip Pull Down",
+    "name_other": "Biceps Close Grip Pull Down",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Pull-up bar"],
+    "name": "Isometria trazioni impugnatura inversa",
+    "name_other": "Isometria trazioni impugnatura inversa",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Bench", "Dumbbell"],
+    "name": "Incline Chest-Supported Dumbbell Row",
+    "name_other": "Incline Chest-Supported Dumbbell Row",
+    "muscles": ["Biceps", "Lats", ""],
+    "muscles_origin": ["Biceps brachii", "Latissimus dorsi", "Trapezius"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Pseudo Planche Push-up",
+    "name_other": "Pseudo Planche Push-up",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Cardio",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Talons fesses",
+    "name_other": "Talons fesses",
+    "muscles": ["Calves"],
+    "muscles_origin": ["Gastrocnemius"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Planche dynamique",
+    "name_other": "Planche dynamique",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Reach ups",
+    "name_other": "Reach ups",
+    "muscles": [""],
+    "muscles_origin": ["Obliquus externus abdominis"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Planche de cote dynamique",
+    "name_other": "Planche de cote dynamique",
+    "muscles": [""],
+    "muscles_origin": ["Obliquus externus abdominis"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "Seated Dumbbell Curls",
+    "name_other": "Seated Dumbbell Curls",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Barbell"],
+    "name": "Reverse Grip Barbell Curls",
+    "name_other": "Reverse Grip Barbell Curls",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["Pull-up bar"],
+    "name": "Trazioni impugnatura inversa",
+    "name_other": "Trazioni impugnatura inversa",
+    "muscles": ["Biceps", "Lats"],
+    "muscles_origin": ["Biceps brachii", "Latissimus dorsi"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Piegamenti a una mano",
+    "name_other": "Piegamenti a una mano",
+    "muscles": ["Chest", "Triceps"],
+    "muscles_origin": ["Pectoralis major", "Triceps brachii"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Arco femorale una gamba",
+    "name_other": "Arco femorale una gamba",
+    "muscles": ["Glutes", "Lats"],
+    "muscles_origin": ["Gluteus maximus", "Latissimus dorsi"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["Barbell"],
+    "name": "Barbell Bench Press - NB",
+    "name_other": "Barbell Bench Press - NB",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Chest",
+    "equipment": [],
+    "name": "Low-Cable Cross-Over - NB",
+    "name_other": "Low-Cable Cross-Over - NB",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["SZ-Bar"],
+    "name": "EZ-Bar Skullcrusher - NB",
+    "name_other": "EZ-Bar Skullcrusher - NB",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "High-Cable Cross Tricep Extention - NB",
+    "name_other": "High-Cable Cross Tricep Extention - NB",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Barbell"],
+    "name": "JM Press",
+    "name_other": "JM Press",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Dumbbell"],
+    "name": "Helms Row",
+    "name_other": "Helms Row",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Barbell"],
+    "name": "Meadows Row",
+    "name_other": "Meadows Row",
+    "muscles": ["Lats", ""],
+    "muscles_origin": ["Latissimus dorsi", "Trapezius"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Push Up",
+    "name_other": "Hacer Subir",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Front Plank",
+    "name_other": "Front Plank",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Barbell"],
+    "name": "BlahBlah",
+    "name_other": "BlahBlah",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Push Up H",
+    "name_other": "Push Up H",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Push Up HD",
+    "name_other": "Push Up HD",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Cardio",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Bodyweight Squat HD",
+    "name_other": "Bodyweight Squat HD",
+    "muscles": ["Quads"],
+    "muscles_origin": ["Quadriceps femoris"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Lying Leg Raise",
+    "name_other": "Lying Leg Raise",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Cardio",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Jumping Jack HD",
+    "name_other": "Jumping Jack HD",
+    "muscles": ["Quads"],
+    "muscles_origin": ["Quadriceps femoris"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Bodyweight Squat HD",
+    "name_other": "Bodyweight Squat HD",
+    "muscles": ["Glutes", "Quads", ""],
+    "muscles_origin": ["Gluteus maximus", "Quadriceps femoris", "Soleus"]
+  },
+  {
+    "category": "Cardio",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Jumping Jack HD",
+    "name_other": "Jumping Jack HD",
+    "muscles": ["Calves", "Quads"],
+    "muscles_origin": ["Gastrocnemius", "Quadriceps femoris"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Plank",
+    "name_other": "Plancha HD",
+    "muscles": ["", "Chest", "Quads", "Abs", ""],
+    "muscles_origin": [
+      "Obliquus externus abdominis",
+      "Pectoralis major",
+      "Quadriceps femoris",
+      "Rectus abdominis",
+      "Trapezius"
+    ]
+  },
+  {
+    "category": "Cardio",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "High Knee Skips HD",
+    "name_other": "High Knee Skips HD",
+    "muscles": ["", "Abs"],
+    "muscles_origin": ["Obliquus externus abdominis", "Rectus abdominis"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Crunches HD",
+    "name_other": "Abdominales HD",
+    "muscles": ["", "Abs"],
+    "muscles_origin": ["Obliquus externus abdominis", "Rectus abdominis"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Bench Dips On Floor HD",
+    "name_other": "Bench Dips On Floor HD",
+    "muscles": ["Biceps", "", "Triceps"],
+    "muscles_origin": ["Biceps brachii", "Brachialis", "Triceps brachii"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Side Plank",
+    "name_other": "Plancha Lateral HD",
+    "muscles": [""],
+    "muscles_origin": ["Obliquus externus abdominis"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["Kettlebell"],
+    "name": "Kopfüber Gewichtaufheben",
+    "name_other": "Kopfüber Gewichtaufheben",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Bodyweight lunge HD",
+    "name_other": "Bodyweight lunge HD",
+    "muscles": ["Quads"],
+    "muscles_origin": ["Quadriceps femoris"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Lateral Push Off",
+    "name_other": "Lateral Push Off",
+    "muscles": ["Calves"],
+    "muscles_origin": ["Gastrocnemius"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Sit-Ups (conventional)",
+    "name_other": "Sit-Ups (conventional)",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Sit-Ups (elbow to knee)",
+    "name_other": "Sit-Ups (elbow to knee)",
+    "muscles": [""],
+    "muscles_origin": ["Obliquus externus abdominis"]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Hand Gripper",
+    "name_other": "Hand Gripper",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "Forearm Curls (overhand grip)",
+    "name_other": "Forearm Curls (overhand grip)",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "Forearm Curls (underhand grip)",
+    "name_other": "Forearm Curls (underhand grip)",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "Biceps Curls (Dumbbell)",
+    "name_other": "Biceps Curls (Dumbbell)",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Cardio",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Running",
+    "name_other": "Running",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "Triceps Overhead (Dumbbell)",
+    "name_other": "Triceps Overhead (Dumbbell)",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "Shoulder Press (Dumbbell)",
+    "name_other": "Shoulder Press (Dumbbell)",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Dumbbell"],
+    "name": "Schoulder Raise (Dumbbell)",
+    "name_other": "Schoulder Raise (Dumbbell)",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["Dumbbell"],
+    "name": "Squats (Dumbbells)",
+    "name_other": "Squats (Dumbbells)",
+    "muscles": ["Hamstrings", "Calves", "Glutes", "Quads"],
+    "muscles_origin": [
+      "Biceps femoris",
+      "Gastrocnemius",
+      "Gluteus maximus",
+      "Quadriceps femoris"
+    ]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Legs Curls",
+    "name_other": "Legs Curls",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Legs Extensions",
+    "name_other": "Legs Extensions",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Legs Abductors",
+    "name_other": "Legs Abductors",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Legs Adductors",
+    "name_other": "Legs Adductors",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Standing Calf Raise",
+    "name_other": "Standing Calf Raise",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": ["Barbell"],
+    "name": "Sumo Deadlifts (Barbell)",
+    "name_other": "Sumo Deadlifts (Barbell)",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Dumbbell"],
+    "name": "Shrugs (Shoulder Raises)",
+    "name_other": "Shrugs (Shoulder Raises)",
+    "muscles": [""],
+    "muscles_origin": ["Trapezius"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Lower Back Extensions",
+    "name_other": "Lower Back Extensions",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Lat Pull Down (narrow grip)",
+    "name_other": "Lat Pull Down (narrow grip)",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Lat Pull Down (close grip)",
+    "name_other": "Lat Pull Down (close grip)",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Cable Row",
+    "name_other": "Cable Row",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Chest",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbell Chest Press",
+    "name_other": "Dumbbell Chest Press",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Chest",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbell Hex Press",
+    "name_other": "Dumbbell Hex Press",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Chest",
+    "equipment": [],
+    "name": "Butterfly",
+    "name_other": "Butterfly",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": ["Dumbbell"],
+    "name": "Stiff",
+    "name_other": "Stiff",
+    "muscles": ["Hamstrings"],
+    "muscles_origin": ["Biceps femoris"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Kettlebell"],
+    "name": "Double Kettlebell Clean and Press",
+    "name_other": "Double Kettlebell Clean and Press",
+    "muscles": ["Shoulders", "Biceps", "", "Quads", "", "Triceps"],
+    "muscles_origin": [
+      "Anterior deltoid",
+      "Biceps brachii",
+      "Brachialis",
+      "Quadriceps femoris",
+      "Trapezius",
+      "Triceps brachii"
+    ]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["Kettlebell"],
+    "name": "Double Kettlebell Front Squat",
+    "name_other": "Double Kettlebell Front Squat",
+    "muscles": ["Glutes", "Quads"],
+    "muscles_origin": ["Gluteus maximus", "Quadriceps femoris"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbell Row",
+    "name_other": "Dumbbell Row",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Blackroll",
+    "name_other": "Blackroll",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Leg Press",
+    "name_other": "Leg Press",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Calf Raise with machine (seated)",
+    "name_other": "Calf Raise with machine (seated)",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbell Split Squat",
+    "name_other": "Dumbbell Split Squat",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbell Lateral Raise",
+    "name_other": "Dumbbell Lateral Raise",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbell Front Raise",
+    "name_other": "Dumbbell Front Raise",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Triceps Dips",
+    "name_other": "Triceps Dips",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbell Deadlift",
+    "name_other": "Dumbbell Deadlift",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Triceps Dips (Assisted)",
+    "name_other": "Triceps Dips (Assisted)",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Cardio",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "box jumps",
+    "name_other": "box jumps",
+    "muscles": ["Glutes"],
+    "muscles_origin": ["Gluteus maximus"]
+  },
+  {
+    "category": "Abs",
+    "equipment": [],
+    "name": "Rotary Torso Machine",
+    "name_other": "Bauch-Twist Gerät",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Cardio",
+    "equipment": [],
+    "name": "Recumbent Bike",
+    "name_other": "Recumbent Bike",
+    "muscles": ["Hamstrings", "Calves", "Glutes", "Quads"],
+    "muscles_origin": [
+      "Biceps femoris",
+      "Gastrocnemius",
+      "Gluteus maximus",
+      "Quadriceps femoris"
+    ]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "TORSO TWIST",
+    "name_other": "TORSO TWIST",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": [],
+    "name": "Cable Lateral Raises (Single Arm)",
+    "name_other": "Cable Lateral Raises (Single Arm)",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Band pull-aparts",
+    "name_other": "Band pull-aparts",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Upper Back",
+    "name_other": "Upper Back",
+    "muscles": ["Shoulders", ""],
+    "muscles_origin": ["Anterior deltoid", "Trapezius"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Pullover Machine",
+    "name_other": "Pullover Machine",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Hamstring Kicks",
+    "name_other": "Hamstring Kicks",
+    "muscles": ["Hamstrings"],
+    "muscles_origin": ["Biceps femoris"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Single Leg RDL",
+    "name_other": "Single Leg RDL",
+    "muscles": ["Hamstrings"],
+    "muscles_origin": ["Biceps femoris"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Single Leg RDL",
+    "name_other": "Single Leg RDL",
+    "muscles": ["Hamstrings", "Glutes"],
+    "muscles_origin": ["Biceps femoris", "Gluteus maximus"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Toe Touch",
+    "name_other": "Toe Touch",
+    "muscles": ["Hamstrings", "Glutes"],
+    "muscles_origin": ["Biceps femoris", "Gluteus maximus"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Elephant Walks",
+    "name_other": "Elephant Walks",
+    "muscles": ["Hamstrings"],
+    "muscles_origin": ["Biceps femoris"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Good Morning",
+    "name_other": "Good Morning",
+    "muscles": ["Hamstrings"],
+    "muscles_origin": ["Biceps femoris"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Single Leg Hamstring Stretch",
+    "name_other": "Single Leg Hamstring Stretch",
+    "muscles": ["Hamstrings"],
+    "muscles_origin": ["Biceps femoris"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Gym mat"],
+    "name": "Sit & Reach",
+    "name_other": "Sit & Reach",
+    "muscles": ["Hamstrings"],
+    "muscles_origin": ["Biceps femoris"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Crossbody Leg Swings",
+    "name_other": "Crossbody Leg Swings",
+    "muscles": ["Hamstrings"],
+    "muscles_origin": ["Biceps femoris"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Standing Pancake",
+    "name_other": "Standing Pancake",
+    "muscles": ["Hamstrings"],
+    "muscles_origin": ["Biceps femoris"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Standing Pancake Good Morning",
+    "name_other": "Standing Pancake Good Morning",
+    "muscles": ["Hamstrings"],
+    "muscles_origin": ["Biceps femoris"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Hamstring Chokes",
+    "name_other": "Hamstring Chokes",
+    "muscles": ["Hamstrings"],
+    "muscles_origin": ["Biceps femoris"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Roll Down",
+    "name_other": "Roll Down",
+    "muscles": [],
+    "muscles_origin": []
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Crossbody Hamstring Stretch",
+    "name_other": "Crossbody Hamstring Stretch",
+    "muscles": ["Hamstrings"],
+    "muscles_origin": ["Biceps femoris"]
+  },
+  {
+    "category": "Abs",
+    "equipment": [],
+    "name": "Plank-to-Elbow Extension",
+    "name_other": "Estensione Plank-Gomito",
+    "muscles": ["Shoulders", "Abs", "Triceps"],
+    "muscles_origin": [
+      "Anterior deltoid",
+      "Rectus abdominis",
+      "Triceps brachii"
+    ]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Cossack squat",
+    "name_other": "Cossack squat",
+    "muscles": ["Glutes", "Quads"],
+    "muscles_origin": ["Gluteus maximus", "Quadriceps femoris"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Wall-sit",
+    "name_other": "Wall-sit",
+    "muscles": ["Glutes", "Quads"],
+    "muscles_origin": ["Gluteus maximus", "Quadriceps femoris"]
+  },
+  {
+    "category": "Abs",
+    "equipment": [],
+    "name": "Dragon-flag",
+    "name_other": "Dragon-flag",
+    "muscles": ["", "Abs"],
+    "muscles_origin": ["Obliquus externus abdominis", "Rectus abdominis"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Plank with Alternating Leg Lift",
+    "name_other": "Plancha con elevación de pierna",
+    "muscles": ["Glutes"],
+    "muscles_origin": ["Gluteus maximus"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Heel Touches",
+    "name_other": "Heel Touches",
+    "muscles": [""],
+    "muscles_origin": ["Obliquus externus abdominis"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "bicycle crunches",
+    "name_other": "Abdominales en bicicleta",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Bird dog",
+    "name_other": "Bird dog",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Hack Squats",
+    "name_other": "Hack Squats",
+    "muscles": ["Quads"],
+    "muscles_origin": ["Quadriceps femoris"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbell Crunches",
+    "name_other": "Abdominales con mancuerna",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Biceps Curl Machine",
+    "name_other": "Biceps Curl Machine",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Toe Taps",
+    "name_other": "Toe Taps",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Standing Side Crunches",
+    "name_other": "Crunch lateral de pie",
+    "muscles": [""],
+    "muscles_origin": ["Obliquus externus abdominis"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbell Shoulder Rotations",
+    "name_other": "Dumbbell Shoulder Rotations",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Plate Pinch Hold",
+    "name_other": "Plate Pinch Hold",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Reverse Wood Chops",
+    "name_other": "Reverse Wood Chops",
+    "muscles": ["Glutes", "Lats"],
+    "muscles_origin": ["Gluteus maximus", "Latissimus dorsi"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Dumbbell"],
+    "name": "Lat Pull DB",
+    "name_other": "Lat Pull DB",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Pull-up bar"],
+    "name": "Scapula Pulls",
+    "name_other": "Scapula Pulls",
+    "muscles": ["Lats", ""],
+    "muscles_origin": ["Latissimus dorsi", "Trapezius"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["Barbell"],
+    "name": "Pin Bench Press BB",
+    "name_other": "Pin Bench Press BB",
+    "muscles": ["Chest", "Triceps"],
+    "muscles_origin": ["Pectoralis major", "Triceps brachii"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["Barbell"],
+    "name": "Pin Squat",
+    "name_other": "Pin Squat",
+    "muscles": ["Hamstrings", "Glutes", "Quads"],
+    "muscles_origin": [
+      "Biceps femoris",
+      "Gluteus maximus",
+      "Quadriceps femoris"
+    ]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["Barbell"],
+    "name": "Clean",
+    "name_other": "Clean",
+    "muscles": ["Glutes", "Quads"],
+    "muscles_origin": ["Gluteus maximus", "Quadriceps femoris"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Barbell"],
+    "name": "Pin OHP",
+    "name_other": "Pin OHP",
+    "muscles": ["Shoulders", "Triceps"],
+    "muscles_origin": ["Anterior deltoid", "Triceps brachii"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Barbell"],
+    "name": "Push OHP",
+    "name_other": "Push OHP",
+    "muscles": ["Shoulders", "Glutes", "Quads"],
+    "muscles_origin": [
+      "Anterior deltoid",
+      "Gluteus maximus",
+      "Quadriceps femoris"
+    ]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Dumbbell"],
+    "name": "Incline OHP DB",
+    "name_other": "Incline OHP DB",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Dumbbell"],
+    "name": "Kreis Press DB",
+    "name_other": "Kreis Press DB",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Dumbbell"],
+    "name": "Shoulder Raise Side and Front DB",
+    "name_other": "Shoulder Raise Side and Front DB",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["Dumbbell"],
+    "name": "Incline Chest Press DB",
+    "name_other": "Incline Chest Press DB",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Barbell"],
+    "name": "Jerk OL",
+    "name_other": "Jerk OL",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Barbell"],
+    "name": "Clean and Jerk OL",
+    "name_other": "Clean and Jerk OL",
+    "muscles": ["Shoulders", "Hamstrings", "Glutes", "Quads"],
+    "muscles_origin": [
+      "Anterior deltoid",
+      "Biceps femoris",
+      "Gluteus maximus",
+      "Quadriceps femoris"
+    ]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Barbell"],
+    "name": "Snatch OL",
+    "name_other": "Snatch OL",
+    "muscles": ["Shoulders", "Hamstrings", "Glutes", "Quads"],
+    "muscles_origin": [
+      "Anterior deltoid",
+      "Biceps femoris",
+      "Gluteus maximus",
+      "Quadriceps femoris"
+    ]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Bench", "Dumbbell"],
+    "name": "Seated W Curl",
+    "name_other": "Seated W Curl",
+    "muscles": ["Biceps", ""],
+    "muscles_origin": ["Biceps brachii", "Brachialis"]
+  },
+  {
+    "category": "Cardio",
+    "equipment": [],
+    "name": "ClimbMill",
+    "name_other": "ClimbMill",
+    "muscles": ["Quads"],
+    "muscles_origin": ["Quadriceps femoris"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Cobra Stretch",
+    "name_other": "Cobra Stretch",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Torso rotation strech",
+    "name_other": "Estiramiento de rotación del torso",
+    "muscles": [""],
+    "muscles_origin": ["Obliquus externus abdominis"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Knee to Chest Stretch",
+    "name_other": "Estiramiento de rodilla al pecho",
+    "muscles": ["Glutes"],
+    "muscles_origin": ["Gluteus maximus"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Towel Superman",
+    "name_other": "Towel Superman",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Chest",
+    "equipment": [],
+    "name": "Cable Press Around",
+    "name_other": "Cable Press Around",
+    "muscles": ["Shoulders", "Chest", "Triceps"],
+    "muscles_origin": [
+      "Anterior deltoid",
+      "Pectoralis major",
+      "Triceps brachii"
+    ]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Cross-Body Cable Y-Raise",
+    "name_other": "Cross-Body Cable Y-Raise",
+    "muscles": ["Shoulders", "Lats", ""],
+    "muscles_origin": ["Anterior deltoid", "Latissimus dorsi", "Trapezius"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["Bench", "Dumbbell"],
+    "name": "No Leg Drive Dumbbell Chest Press",
+    "name_other": "No Leg Drive Dumbbell Chest Press",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "punches",
+    "name_other": "punches",
+    "muscles": ["Shoulders", "Triceps"],
+    "muscles_origin": ["Anterior deltoid", "Triceps brachii"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbell Underhand Dead Row",
+    "name_other": "Dumbbell Underhand Dead Row",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Pause Hack Squats",
+    "name_other": "Pause Hack Squats",
+    "muscles": ["Quads"],
+    "muscles_origin": ["Quadriceps femoris"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Incline bench"],
+    "name": "Spider Curl",
+    "name_other": "Spider Curl",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Calf Raise using Hack Squat Machine",
+    "name_other": "Calf Raise using Hack Squat Machine",
+    "muscles": ["Calves", ""],
+    "muscles_origin": ["Gastrocnemius", "Soleus"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Barbell"],
+    "name": "Incline Close Grip Barbell Bench Press",
+    "name_other": "Incline Close Grip Barbell Bench Press",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["SZ-Bar"],
+    "name": "Floor Skull Crusher",
+    "name_other": "Floor Skull Crusher",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Chest",
+    "equipment": [],
+    "name": "Bent over Cable Flye",
+    "name_other": "Bent over Cable Flye",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "1-Arm Half-Kneeling Lat Pulldown",
+    "name_other": "1-Arm Half-Kneeling Lat Pulldown",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Kroc Row",
+    "name_other": "Kroc Row",
+    "muscles": ["Lats", ""],
+    "muscles_origin": ["Latissimus dorsi", "Trapezius"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": [],
+    "name": "Cable Shrug-In",
+    "name_other": "Cable Shrug-In",
+    "muscles": [""],
+    "muscles_origin": ["Trapezius"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Reverse Cable Flye",
+    "name_other": "Reverse Cable Flye",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "W-Raise",
+    "name_other": "W-Raise",
+    "muscles": ["", "Abs"],
+    "muscles_origin": ["Obliquus externus abdominis", "Rectus abdominis"]
+  },
+  {
+    "category": "Abs",
+    "equipment": [],
+    "name": "Black Widow Knee Slides",
+    "name_other": "Black Widow Knee Slides",
+    "muscles": ["", "Abs"],
+    "muscles_origin": ["Obliquus externus abdominis", "Rectus abdominis"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Butterfly Sit Up",
+    "name_other": "Butterfly Sit Up",
+    "muscles": ["", "Abs"],
+    "muscles_origin": ["Obliquus externus abdominis", "Rectus abdominis"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Seated Corkscrew",
+    "name_other": "Seated Corkscrew",
+    "muscles": ["", "Abs"],
+    "muscles_origin": ["Obliquus externus abdominis", "Rectus abdominis"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Levitation Crunch",
+    "name_other": "Levitation Crunch",
+    "muscles": ["Abs"],
+    "muscles_origin": ["Rectus abdominis"]
+  },
+  {
+    "category": "Abs",
+    "equipment": ["none (bodyweight exercise)"],
+    "name": "Sit Up Elbow Thrust",
+    "name_other": "Sit Up Elbow Thrust",
+    "muscles": ["", "Abs"],
+    "muscles_origin": ["Obliquus externus abdominis", "Rectus abdominis"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Barbell", "Dumbbell"],
+    "name": "Lying Triceps Extensions",
+    "name_other": "Lying Triceps Extensions",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["SZ-Bar"],
+    "name": "Drag Pushdown",
+    "name_other": "Drag Pushdown",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbell Cheat Curl",
+    "name_other": "Dumbbell Cheat Curl",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "Bizeps Curls Trifecta",
+    "name_other": "Bizeps Curls Trifecta",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["SZ-Bar"],
+    "name": "Omni Cable Cross-over",
+    "name_other": "Omni Cable Cross-over",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["SZ-Bar"],
+    "name": "Rocking Triceps Pushdown",
+    "name_other": "Rocking Triceps Pushdown",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Alternating High Cable Row",
+    "name_other": "Alternating High Cable Row",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Hyper Y W Combo",
+    "name_other": "Hyper Y W Combo",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbell Pullover",
+    "name_other": "Dumbbell Pullover",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Abs",
+    "equipment": [],
+    "name": "Plank Jacks",
+    "name_other": "Plank Jacks",
+    "muscles": ["Glutes", "", "Abs"],
+    "muscles_origin": [
+      "Gluteus maximus",
+      "Obliquus externus abdominis",
+      "Rectus abdominis"
+    ]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell", "Incline bench"],
+    "name": "Lying Triceps Kickback",
+    "name_other": "Lying Triceps Kickback",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Pull-up bar"],
+    "name": "Remada unilateral no cabo",
+    "name_other": "Remada unilateral no cabo",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "High Row",
+    "name_other": "High Row",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Bayesian Curl",
+    "name_other": "Bayesian Curl",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Sitting Calf Raises",
+    "name_other": "Sitting Calf Raises",
+    "muscles": ["Calves"],
+    "muscles_origin": ["Gastrocnemius"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["Dumbbell"],
+    "name": "DB Upper Chest Variation",
+    "name_other": "DB Upper Chest Variation",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["Bench", "Dumbbell"],
+    "name": "DB Underhand bench press",
+    "name_other": "DB Underhand bench press",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Bench", "Dumbbell"],
+    "name": "Elbows Tucked DB Bench Press",
+    "name_other": "Elbows Tucked DB Bench Press",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "DB Skull Crushers",
+    "name_other": "DB Skull Crushers",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Chest",
+    "equipment": ["Dumbbell"],
+    "name": "DB UCV",
+    "name_other": "DB UCV",
+    "muscles": ["Chest"],
+    "muscles_origin": ["Pectoralis major"]
+  },
+  {
+    "category": "Back",
+    "equipment": ["Dumbbell"],
+    "name": "Alternative DB Gorilla rows",
+    "name_other": "Alternative DB Gorilla rows",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "DB Cross Body Hammer Curls",
+    "name_other": "DB Cross Body Hammer Curls",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Legs",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbell Frog Press",
+    "name_other": "Dumbbell Frog Press",
+    "muscles": ["Glutes"],
+    "muscles_origin": ["Gluteus maximus"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": ["Dumbbell"],
+    "name": "Dumbbel Bradford press",
+    "name_other": "Dumbbel Bradford press",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Chest",
+    "equipment": [],
+    "name": "High-Incline Smith Machine Press",
+    "name_other": "High-Incline Smith Machine Press",
+    "muscles": ["Shoulders", "Chest", "Triceps"],
+    "muscles_origin": [
+      "Anterior deltoid",
+      "Pectoralis major",
+      "Triceps brachii"
+    ]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Cable Tricep Kickback",
+    "name_other": "Cable Tricep Kickback",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Neutral Grip Lat Pulldown",
+    "name_other": "Neutral Grip Lat Pulldown",
+    "muscles": ["Lats"],
+    "muscles_origin": ["Latissimus dorsi"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "Kong Curl",
+    "name_other": "Kong Curl",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["Dumbbell"],
+    "name": "Drop Curl",
+    "name_other": "Drop Curl",
+    "muscles": ["Biceps"],
+    "muscles_origin": ["Biceps brachii"]
+  },
+  {
+    "category": "Arms",
+    "equipment": [],
+    "name": "Overhead Cable Tricep Extension",
+    "name_other": "Overhead Cable Tricep Extension",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Back",
+    "equipment": [],
+    "name": "Lateral Walk",
+    "name_other": "Lateral Walk",
+    "muscles": ["Glutes"],
+    "muscles_origin": ["Gluteus maximus"]
+  },
+  {
+    "category": "Legs",
+    "equipment": [],
+    "name": "Leg Press Toe Press",
+    "name_other": "Leg Press Toe Press",
+    "muscles": ["Calves"],
+    "muscles_origin": ["Gastrocnemius"]
+  },
+  {
+    "category": "Shoulders",
+    "equipment": [],
+    "name": "Handstand",
+    "name_other": "Handstand",
+    "muscles": ["Shoulders"],
+    "muscles_origin": ["Anterior deltoid"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["SZ-Bar"],
+    "name_other": "",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["SZ-Bar"],
+    "name_other": "",
+    "muscles": ["Triceps"],
+    "muscles_origin": ["Triceps brachii"]
+  },
+  {
+    "category": "Arms",
+    "equipment": ["SZ-Bar"],
+    "name": "Overhead Triceps Extension",
+    "name_other": "Overhead Triceps Extension",
+    "muscles": [""],
+    "muscles_origin": ["Trapezius"]
+  }
+]

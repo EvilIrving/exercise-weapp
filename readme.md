@@ -1,64 +1,52 @@
-# 训练记录 app
 
-首页
- 开始训练
- 查看训练记录
+# 训练记录 App / Training Record App
 
-开始训练页面，选择动作，开始训练。训练结束后，保存训练记录。
+**中文说明**  
+这是一个训练记录应用，提供训练历史、训练过程动作与组管理、休息计时、总时长记录以及丰富的动作库等功能。用户还可以保存模板、批量删除记录、查看动作详情，支持多语言与自定义键盘/滚动选择器，帮助用户全面管理和优化训练计划。
 
-只需要在完成时触发保存。
-正在训练的时候，所有数据都保存在内存中，只记录一个状态：正在训练中，训练结束后，状态变为：训练结束。
+**English Description**  
+This is a Training Record App that offers features like workout history tracking, dynamic exercise and set management during sessions, rest timers, and total duration records. With a comprehensive exercise library, users can also save templates, perform batch deletions, and view exercise details. The app supports multiple languages and custom input components, allowing users to fully manage and optimize their training routines.
 
-训练页面:
-开启训练前必须先选择动作至少一个,选择完动作点击开始训练,计时开始,此时可以点击完成动作
+## 主要功能
 
-动作可以选中,再取消,取消时,删除休息计时
+1. 训练历史
+2. 训练过程添加动作,添加组
+3. 休息计时
+4. 记录总时长
+5. 动作库
+6. * 保存模板
+7. * 删除记录/批量
+8. * 动作库/图片+详情
+9. * 休息计时自定义时长
+10. * 展示训练总容量/时长/最佳组
+11. * 训练历史统计
+12. * 编辑训练名称
+13. * 添加训练备注
+14. * 自定义键盘/滚动 ruler picker
+15. * 动作添加后可以删除
+16. * 多语言
 
-如果未完成动作就点了完成,给出两个选项,标记为完成或者丢弃未标记的动作
+## 数据来源
 
-相关术语:
-以下是与健身训练、力量训练相关的专业词汇及术语分类整理，涵盖动作、器械、组次安排等：
+[美国 ACE 运动协会动作库](https://www.acefitness.org/resources/everyone/exercise-library/body-part/abs/)
+[Exercise Dataset](https://github.com/cyberboyanmol/exercisedb-api) -> [Price](https://verdant-cobra-ba0.notion.site/Table-of-Contents-1a6983b728ca80b69e85c5c74133220e)
+[RapidAPI 上的 ExerciseDB API](https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb) -> 600次请求 / Month
+[Workout API by Wger.de](https://wger.de/en/software/api)
 
 ​​一、基础训练术语​​
 
-**1. 基础术语**  
-• set: 一组  
+set 一组
+rep 一次
+X sets of Y reps: X组，每组Y次
+ *"Do 4 sets of 8 reps."*: 做4组，每组8次  
 
-• rep (repetition): 一次（动作重复）  
+rest between sets
+superset
+drop set
+*"Rest 30s between sets."*: 组间休息30秒  
+*"Superset push-ups and pull-ups."*: 俯卧撑和引体向上做超级组
 
-• X sets of Y reps: X组，每组Y次  
-
-例句  
-• *"3 sets of 12 reps"*: 3组×12次  
-
-• *"Do 4 sets of 8 reps."*: 做4组，每组8次  
-
-**2. 训练安排**  
-• rest between sets: 组间休息  
-
-• superset: 超级组（无间歇连续两组动作）  
-
-• drop set: 递减组（逐次减重继续做）  
-
-例句  
-• *"Rest 30s between sets."*: 组间休息30秒  
-
-• *"Superset push-ups and pull-ups."*: 俯卧撑和引体向上做超级组  
-
----
-
-**3. 常见指令**  
-• to failure: 做到力竭  
-
-• warm-up set: 热身组  
-
-• working set: 正式组  
-
-例句  
-• *"Do 2 warm-up sets, then 3 working sets."*: 做2组热身，再3组正式组  
-
----
-
-**总结公式**  
-"[X] sets of [Y] reps for [动作]" = [动作]做X组×Y次  
-（例：*"5 sets of 5 reps for squats."* = 深蹲5组×5次）  
+to failure: 做到力竭  
+warm-up set: 热身组  
+working set: 正式组  
+*"Do 2 warm-up sets, then 3 working sets."*: 做2组热身，再3组正式组  
